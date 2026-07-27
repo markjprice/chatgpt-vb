@@ -4,6 +4,16 @@ ChatGPT changes often. A menu can move, a feature can leave preview status, or a
 
 # Book 1
 
+> **Interface change**: ?
+
+> **Plan and pricing change**: ?
+
+> **Feature availability**: ?
+
+> **Region and account difference**: ?
+
+> **Correction**: ?
+
 # Book 2
 
 # Book 3
