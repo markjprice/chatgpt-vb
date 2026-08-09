@@ -29,7 +29,7 @@
   - [Try it now](#try-it-now-3)
     - [Check the result](#check-the-result-3)
 - [Chapter 5: Choosing the right AI for the job](#chapter-5-choosing-the-right-ai-for-the-job)
-  - [Five-way comparison](#five-way-comparison)
+  - [Five-way comparison of popularity of AI services](#five-way-comparison-of-popularity-of-ai-services)
   - [Try it now](#try-it-now-4)
 
 # Introduction
@@ -157,6 +157,8 @@ If you work with clients or colleagues in Europe, you will eventually hear the n
 
 Mistral is headquartered in Paris, and Mistral Vibe processes and stores data on servers inside the European Union by default. That matters for any organization bound by the General Data Protection Regulation (GDPR), Europe's law governing how personal data is collected, stored, and used. Mistral also releases several of its models as open weights, meaning any organization with the right technical skill can download and run them on its own hardware instead of sending data to Mistral's servers at all. Mistral Vibe also performs strongly across European languages beyond English, including French, German, and Spanish.
 
+![Mistral Vibe as an EU-compliant AI](Bonus-Chapter-Beyond-Your-First-AI-Mistral.png)
+
 ## Weighing it against ChatGPT and Claude
 
 Mistral Vibe's third-party app ecosystem and consumer feature set are smaller than ChatGPT's or Claude's. What it offers instead is a genuine compliance advantage: an EU-based company, EU data residency, and formal alignment with GDPR, which matters far more to a regulated European organization than an extra built-in feature does.
@@ -189,6 +191,8 @@ DeepSeek, Qwen, and Kimi are the names you are most likely to encounter when som
 ## What makes them distinct
 
 DeepSeek, Qwen (from Alibaba), and Kimi (from Moonshot AI) compete aggressively on price, often charging a fraction of what ChatGPT, Claude, or Gemini charge for comparable use through their apps and developer access. Each also releases open-weight versions of its models, meaning any organization can download and run them independently. All three release new versions frequently, and independent benchmarks have repeatedly shown strong results relative to their cost.
+
+![DeepSeek, Qwen, and Kimi as low-cost AIs](Bonus-Chapter-Beyond-Your-First-AI-Chinese.png)
 
 ## Weighing them against ChatGPT and Claude
 
@@ -232,7 +236,7 @@ ChatGPT should remain your default assistant. Everything in this guide is about 
 | The lowest possible cost, or an open-weight model to self-host | DeepSeek, Qwen, or Kimi | Aggressive pricing and open-weight availability |
 | To handle confidential, client, or regulated data | ChatGPT, Claude, Gemini, or Mistral Vibe, under a paid or enterprise plan | Avoid hosted apps whose data-handling rules you have not confirmed |
 
-## Five-way comparison
+## Five-way comparison of popularity of AI services
 
 Product|Total users (official)|Paid individual subscribers (official)|Business/enterprise customers (official)
 ---|---|---|---
@@ -248,4 +252,4 @@ This is a sensitive-adjacent business topic (competitive/financial claims), so t
 
 ## Try it now
 
-Pick one real task from your week ahead. Run it through the matrix above, choose an assistant based on the result, and complete the task there instead of defaulting to whichever assistant you happen to have open.
+Pick one real task from your week ahead. Run it through the first matrix in this chapter, choose an assistant based on the result, and complete the task there instead of defaulting to whichever assistant you happen to have open.
