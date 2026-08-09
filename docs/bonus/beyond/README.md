@@ -50,9 +50,9 @@ Claude is the AI assistant you are most likely to hear mentioned alongside ChatG
 
 ## What makes each one distinct
 
-Anthropic built Claude with a focus on writing quality and careful, step-by-step reasoning. Claude includes **Projects**, a workspace that keeps files and instructions together for one ongoing piece of work, and **Artifacts**, a side panel where Claude builds a document, spreadsheet, or piece of code you can review and revise without losing the surrounding conversation. Anthropic also sells **Claude Code**, a separate product for programmers who want an AI assistant inside their coding tools. Anthropic markets Claude heavily toward professional and enterprise use, and its writing and reasoning quality reflect that focus.
+Anthropic built Claude with a focus on writing quality and careful, step-by-step reasoning. Anthropic markets Claude heavily toward professional and enterprise use, and its writing and reasoning quality reflect that focus. In the past year, Anthropic overtook OpenAI in market valuation due to its success in selling to the corporate market, led by Claude Code for software developers. OpenAI has spent the past six months racing to catch up, matching Claude feature-for-feature and trying to undercut them on cost.
 
-OpenAI built ChatGPT for the broadest possible audience. It reaches more consumers than any other AI assistant, supports the widest range of input and output types in one place (text, images, voice, and more), and sits inside the largest outside ecosystem of any assistant: custom GPTs built by other users, third-party plugins, and apps that connect to ChatGPT directly. If you want an AI assistant with the most built-in features and the most existing tools built around it, ChatGPT remains the safer default.
+OpenAI built ChatGPT for the broadest possible audience. It reaches more consumers than any other AI assistant (OpenAI recently claimed over 1 billion weekly active users), supports the widest range of input and output types in one place (text, images, voice, and more), and sits inside the largest outside ecosystem of any assistant. It has abandoned distracting products like Sora (AI-generated video) to refocus on enterprise markets like Anthropic does. If you want an AI assistant with the most built-in features and the most existing tools built around it, ChatGPT remains a safe default.
 
 ## Same idea, different name
 
@@ -74,7 +74,7 @@ Claude and ChatGPT often solve the same problem with a feature that carries a di
 
 ## Cost and plans
 
-Both companies offer a free tier with usage limits, an individual paid plan for regular use, and a separate plan for teams and businesses. Exact prices and monthly limits change often enough that I will not list them here. 
+Both companies offer a free tier with usage limits, individual paid plans for regular use, and separate plans for teams and businesses with enterprise features like organizational controls. 
 
 Here's the official pricing/plans page for each:
 
@@ -82,21 +82,20 @@ Here's the official pricing/plans page for each:
 - **Claude**: [claude.com/pricing](https://claude.com/pricing) — covers Free, Pro, Max, Team, and Enterprise.
 - **Mistral Vibe**: [mistral.ai/pricing](https://mistral.ai/pricing) — covers Free, Pro, Team, and Enterprise for the renamed Le Chat/Vibe app.
 - **Google Gemini**: [one.google.com/about/google-ai-plans](https://one.google.com/intl/en_us/about/google-ai-plans/) — covers Free, AI Plus, AI Pro, and the two AI Ultra tiers.
-- **DeepSeek**: [api-docs.deepseek.com/quick_start/pricing](https://api-docs.deepseek.com/quick_start/pricing/) — DeepSeek's chat app itself is free with no consumer subscription tiers, so this API token-pricing page is the closest official equivalent to a "plans" page.
-- **Qwen**: [alibabacloud.com/help/en/model-studio/model-pricing](https://www.alibabacloud.com/help/en/model-studio/model-pricing) — official pricing for Qwen models served through Alibaba Cloud Model Studio (formerly DashScope/Bailian).
-- **Kimi**: [platform.kimi.ai/docs/pricing](https://platform.kimi.ai/docs/pricing/chat-v1) — Moonshot AI's official developer platform pricing docs for the Kimi models.
+
+For a knowledge-worker experience close to what *Book 1* describes for the ChatGPT desktop app, the best link is DeepSeek's own chat app at [chat.deepseek.com](https://chat.deepseek.com/). It's free for personal use, available on web, iOS, and Android, and includes a long context window and a visible reasoning mode comparable in spirit to ChatGPT's features. But unlike ChatGPT and Claude, DeepSeek does not ship an official native desktop application for Windows or Mac. What circulates as "DeepSeek Desktop" is an unofficial, community-built wrapper around the same web app, not something DeepSeek maintains itself, so be careful if you choose to install that.
 
 ## Who is actually using which one
 
-Popularity figures for AI assistants shift from month to month, so treat any specific number as a snapshot rather than a permanent ranking. Two recent, named surveys give a useful picture. Anthropic's share of enterprise spending on large-language-model access grew from 24% in 2024 to 40% in 2025, overtaking OpenAI's 27% share, according to Menlo Ventures' *2025 State of Generative AI in the Enterprise* report. Among individual developers, OpenAI's models remained the most widely used overall, but Claude's Sonnet models were used by 45% of professional developers, compared with 30% of those still learning to code, according to Stack Overflow's 2025 Developer Survey, published in December 2025.
+Popularity figures for AI assistants shift from month to month, so treat any specific number as a snapshot rather than a permanent ranking. Anthropic's share of enterprise spending on large-language-model access grew from 24% in 2024 to 40% in 2025, overtaking OpenAI's 27% share, according to Menlo Ventures' *2025 State of Generative AI in the Enterprise* report. Among individual developers, OpenAI's models remained the most widely used overall, but Claude's Sonnet models were used by 45% of professional developers, compared with 30% of those still learning to code, according to Stack Overflow's 2025 Developer Survey, published in December 2025.
 
-Read those two figures together rather than separately. ChatGPT keeps the widest reach across casual and consumer use. Claude has grown fastest among people who write, reason, and code for a living.
+To summarize, ChatGPT has the widest reach across casual and consumer use. Claude has grown fastest among people who write, reason, and code for a living aka professionals.
 
 Metric|OpenAI ChatGPT|Anthropic Claude
 ---|---|---
-Total users (all tiers)|900 million weekly active users|Not officially disclosed. Third-party estimates for monthly active users range from roughly 12 million to 245 million depending on methodology
-$20/month tier (Plus / Pro)|Not broken out in the latest announcement. An older, unofficial figure from a mid-2025 court filing put Plus at roughly 12 to 15.5 million subscribers, but that predates the current 50 million total|Not disclosed as a standalone number. Anthropic confirmed to reporters that combined Pro + Max paid subscriptions "more than doubled" since the start of 2026, without giving an absolute count
-$100–$200/month tier (Pro / Max)|Not officially itemized. Third-party analysis puts ChatGPT Pro ($200) at roughly 500,000+ subscribers; OpenAI's only official figure here is that Pro made up 5.8% of consumer sales when it launched in January 2025|Not disclosed as a standalone number (folded into the "more than doubled" figure above, which covers both the $20 and $100–$200 plans together)
+Total users (all tiers)|900 million weekly active users|Not officially disclosed. Third-party estimates for monthly active users start at 12 million
+$20/month tier (Plus / Pro)|An unofficial figure from a mid-2025 court filing put Plus at roughly 12 to 15.5 million subscribers|Anthropic confirmed to reporters that combined Pro + Max paid subscriptions "more than doubled" since the start of 2026, without giving an absolute count
+$100–$200/month tier (Pro / Max)|Third-party analysis puts ChatGPT Pro ($200) at roughly 500,000+ subscribers|Not disclosed as a standalone number
 Business / Team / Enterprise accounts|More than 9 million paying business users|More than 300,000 business customers; more than 1,000 of those customers each spend over $1 million a year
 Total paid subscribers, all consumer tiers combined|More than 50 million|Not officially disclosed
 
@@ -131,7 +130,7 @@ Choosing between ChatGPT, Claude, and Gemini can feel a little like choosing bet
 
 ## Cost and how to sign up
 
-Gemini offers a free tier alongside paid individual and business plans, similar in structure to ChatGPT and Claude. Because most readers already have a Google account, signing up for Gemini's free tier takes only a few seconds: no new account, password, or payment method required to get started. Check the companion page for current plan names and prices.
+Gemini offers a free tier alongside paid individual and business plans, similar in structure to ChatGPT and Claude. Because most readers already have a Google account, signing up for Gemini's free tier takes only a few seconds: no new account, password, or payment method required to get started. Check this page for current plan names and prices: [one.google.com/about/google-ai-plans](https://one.google.com/intl/en_us/about/google-ai-plans/)
 
 > **Good practice:** Reach for Gemini specifically when your question depends on a Google Doc, Sheet, or Gmail thread, or when you need to work through something unusually long, such as a full recorded meeting or a lengthy report.
 
@@ -162,7 +161,7 @@ Mistral Vibe's third-party app ecosystem and consumer feature set are smaller th
 
 ## Cost and how to sign up
 
-Mistral Vibe offers free and paid tiers for everyday use, similar in structure to the other assistants in this guide. If you or your organization also builds software on top of Mistral's models directly, that use is billed separately as API access, distinct from a personal Mistral Vibe subscription. Check the companion page for current plan names and prices.
+Mistral Vibe offers free and paid tiers for everyday use, similar in structure to the other assistants in this guide. If you or your organization also builds software on top of Mistral's models directly, that use is billed separately as API access, distinct from a personal Mistral Vibe subscription. Check this page for current plan names and prices: [mistral.ai/pricing](https://mistral.ai/pricing)
 
 This compliance angle returns in *Chapter 4*, when we look at the opposite end of the spectrum: assistants with little to no EU compliance story at all.
 
@@ -198,6 +197,12 @@ The appeal is real: low cost, openness, and rapid improvement. The trade-offs ar
 All three offer free access through their web chat apps with no payment required to start. Organizations with the technical resources to self-host an open-weight model on their own hardware or a Western cloud provider can avoid sending any data to Chinese servers at all, though that setup is outside the scope of this guide.
 
 > **Watch out:** Do not send confidential client information, health records, financial details, or any other regulated data through the hosted DeepSeek, Qwen, or Kimi apps or APIs. Once that data reaches a server in China, it falls under Chinese law rather than the privacy rules you may already follow for other tools. This same caution applies to any hosted AI service outside your own country whose data-handling rules you have not checked.
+
+DeepSeek, Qwen, and Kimi each publish their pricing primarily on a developer platform page (API docs, token rates, and rate limits) rather than on a consumer plans page. That reflects how these companies expect to be used: as a model you connect to your own application, coding tool, or agent harness through an API key, priced by the token, rather than as a subscription a knowledge worker signs up for directly. Qwen and Kimi in particular are positioned almost entirely this way. Their public-facing chat apps exist, but the companies' own marketing and documentation point developers toward Alibaba Cloud Model Studio and the Kimi developer platform, not toward a branded consumer app with tiered plans. DeepSeek is the exception worth calling out separately below.
+
+- **DeepSeek**: [api-docs.deepseek.com/quick_start/pricing](https://api-docs.deepseek.com/quick_start/pricing/) — DeepSeek's chat app itself is free with no consumer subscription tiers, so this API token-pricing page is the closest official equivalent to a "plans" page.
+- **Qwen**: [alibabacloud.com/help/en/model-studio/model-pricing](https://www.alibabacloud.com/help/en/model-studio/model-pricing) — official pricing for Qwen models served through Alibaba Cloud Model Studio (formerly DashScope/Bailian).
+- **Kimi**: [platform.kimi.ai/docs/pricing](https://platform.kimi.ai/docs/pricing/chat-v1) — Moonshot AI's official developer platform pricing docs for the Kimi models.
 
 ## Try it now
 
