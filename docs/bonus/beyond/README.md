@@ -83,11 +83,11 @@ Here's the official pricing/plans page for each:
 - **Google Gemini**: [one.google.com/about/google-ai-plans](https://one.google.com/intl/en_us/about/google-ai-plans/) — covers Free, AI Plus, AI Pro, and the two AI Ultra tiers.
 - **Mistral Vibe**: [mistral.ai/pricing](https://mistral.ai/pricing) — covers Free, Pro, Team, and Enterprise for the renamed Le Chat/Vibe app.
 
-For a knowledge-worker experience close to what *Book 1* describes for the ChatGPT desktop app, the best link is DeepSeek's own chat app at [chat.deepseek.com](https://chat.deepseek.com/). It's free for personal use, available on web, iOS, and Android, and includes a long context window and a visible reasoning mode comparable in spirit to ChatGPT's features. But unlike ChatGPT and Claude, DeepSeek does not ship an official native desktop application for Windows or Mac. What circulates as "DeepSeek Desktop" is an unofficial, community-built wrapper around the same web app, not something DeepSeek maintains itself, so be careful if you choose to install that.
-
 ## Who is actually using which one
 
-Popularity figures for AI assistants shift from month to month, so treat any specific number as a snapshot rather than a permanent ranking. Anthropic's share of enterprise spending on large-language-model access grew from 24% in 2024 to 40% in 2025, overtaking OpenAI's 27% share, according to Menlo Ventures' *2025 State of Generative AI in the Enterprise* report. Among individual developers, OpenAI's models remained the most widely used overall, but Claude's Sonnet models were used by 45% of professional developers, compared with 30% of those still learning to code, according to Stack Overflow's 2025 Developer Survey, published in December 2025.
+Popularity figures for AI assistants shift from month to month, so treat any specific number as a snapshot rather than a permanent ranking.
+
+Anthropic's share of enterprise spending on large-language-model access grew from 24% in 2024 to 40% in 2025, overtaking OpenAI's 27% share, according to Menlo Ventures' *2025 State of Generative AI in the Enterprise* report. Among individual developers, OpenAI's models remained the most widely used overall, but Claude's Sonnet models were used by 45% of professional developers, compared with 30% of those still learning to code, according to Stack Overflow's 2025 Developer Survey, published in December 2025.
 
 To summarize, ChatGPT has the widest reach across casual and consumer use. Claude has grown fastest among people who write, reason, and code for a living aka professionals.
 
@@ -203,6 +203,8 @@ DeepSeek, Qwen, and Kimi each publish their pricing primarily on a developer pla
 - **DeepSeek**: [api-docs.deepseek.com/quick_start/pricing](https://api-docs.deepseek.com/quick_start/pricing/) — DeepSeek's chat app itself is free with no consumer subscription tiers, so this API token-pricing page is the closest official equivalent to a "plans" page.
 - **Qwen**: [alibabacloud.com/help/en/model-studio/model-pricing](https://www.alibabacloud.com/help/en/model-studio/model-pricing) — official pricing for Qwen models served through Alibaba Cloud Model Studio (formerly DashScope/Bailian).
 - **Kimi**: [platform.kimi.ai/docs/pricing](https://platform.kimi.ai/docs/pricing/chat-v1) — Moonshot AI's official developer platform pricing docs for the Kimi models.
+
+For a knowledge-worker experience close to what *Book 1* describes for the ChatGPT desktop app, the best link is DeepSeek's own chat app at [chat.deepseek.com](https://chat.deepseek.com/). It's free for personal use, available on web, iOS, and Android, and includes a long context window and a visible reasoning mode comparable in spirit to ChatGPT's features. But unlike ChatGPT and Claude, DeepSeek does not ship an official native desktop application for Windows or Mac. What circulates as "DeepSeek Desktop" is an unofficial, community-built wrapper around the same web app, not something DeepSeek maintains itself, so be careful if you choose to install that.
 
 ## Try it now
 

@@ -28,6 +28,13 @@ Treat every prompt here as a starting point, not a finished product. Nothing in 
 
 Attorneys hold a duty of confidentiality that covers almost everything a client tells them, and a duty of competence that now extends to understanding the tools they use. The American Bar Association's Formal Opinion 512, issued in July 2024, states that lawyers using generative AI must understand its capabilities and limitations under Model Rule 1.1 and must protect client information under Model Rule 1.6, regardless of which AI tool touches that information. More than a dozen state bars have since issued their own opinions on the same questions.
 
+In the United Kingdom, the Solicitors Regulation Authority (SRA) has not written AI-specific rules, because it considers the existing SRA Standards and Regulations sufficient: the duty of confidentiality and the duty of competence already cover how a solicitor uses any tool, including AI. Sending client information to a general AI tool without checking its terms can itself breach confidentiality, and using an open, public AI tool for legal research can waive legal professional privilege. In June 2025, the Divisional Court warned that AI tools are not reliable for legal research on their own and that a solicitor who files unverified, AI-generated case citations risks contempt of court.
+
+If you are outside the US and UK, ask:
+```
+What confidentiality and legal professional privilege rules apply to a lawyer using AI tools in [your country]?
+```
+
 > **Watch out:** Never paste client names, case facts, or privileged communications into a consumer AI account unless your firm has confirmed that the account meets its confidentiality and data-retention requirements. A general-purpose free account is rarely the right place for this.
 
 > **Good practice:** Use AI to draft, summarize, and organize using anonymized or hypothetical facts, then add real client details yourself once the draft is ready for your own systems.
@@ -42,6 +49,13 @@ Attorneys hold a duty of confidentiality that covers almost everything a client 
 
 Healthcare professionals work under the Health Insurance Portability and Accountability Act (HIPAA), which protects patient health information from being shared with anyone or anything that has not agreed to protect it the same way. The US Department of Health and Human Services' Office for Civil Rights has made clear that HIPAA's technical safeguards apply to any AI system that touches protected health information, and that a vendor's own security claims do not remove your organization's responsibility to verify them.
 
+In the United Kingdom, NHS England's own guidance tells staff not to enter personal, confidential, or business-sensitive data into public generative AI tools such as ChatGPT, under the UK General Data Protection Regulation (UK GDPR) and the wider duty of patient confidentiality. Reusing patient data for training or research purposes generally requires either removing identifying details or, where that is not possible, a formal application to the Health Research Authority's Confidentiality Advisory Group.
+
+If you are outside the US and UK, ask:
+```
+What patient data protection and confidentiality rules apply to healthcare staff using AI tools in [your country]?
+```
+
 > **Watch out:** A consumer AI account is not a HIPAA-covered tool unless your organization has a signed business associate agreement with the provider. Typing a real patient's name, diagnosis, or chart notes into a general AI chat is a data breach, not a shortcut.
 
 > **Good practice:** Draft with placeholders (a fictional patient, a general condition, a rounded age) and only add real identifying details afterward, inside your organization's approved systems.
@@ -55,6 +69,13 @@ Healthcare professionals work under the Health Insurance Portability and Account
 # Marketing
 
 Marketers who use AI to help write or generate content face a two-part disclosure rule. As of 2026, the Federal Trade Commission generally expects separate disclosures for sponsorship and for AI involvement. A label that says a post is sponsored does not also cover AI involvement, and a label that says content is AI-generated does not also cover a paid relationship. Both statements must appear when both apply.
+
+In the United Kingdom, there is no blanket legal requirement to label an ad as AI-generated. Instead, the Advertising Standards Authority and its Committee of Advertising Practice apply the existing CAP Code: the question is whether an audience would be misled by not knowing AI was involved, not whether AI was used at all. From June 2026, CAP guidance specifically addresses AI-generated deepfakes, synthetic endorsements, and misleading product depictions as breaches of existing rules, whether or not an advertiser separately discloses AI use.
+
+If you are outside the US and UK, ask:
+```
+What advertising and AI-disclosure rules apply to marketers using AI-generated content in [your country]?
+```
 
 > **Watch out:** Do not treat a single disclosure, such as "#ad," as covering AI involvement too. If a post is both sponsored and AI-assisted, disclose both facts as separate, visible statements.
 
@@ -71,6 +92,13 @@ Marketers who use AI to help write or generate content face a two-part disclosur
 
 Sales professionals face a narrower but still real risk: overstating what a product or service can do. Claims made in a sales conversation, proposal, or follow-up email can create a binding representation, and general consumer-protection law treats a false or misleading claim about a product the same whether a human or an AI assistant wrote the words.
 
+In the United Kingdom, the Consumer Protection from Unfair Trading Regulations 2008, carried forward under the Digital Markets, Competition and Consumers Act 2024, ban misleading actions and misleading omissions in any commercial practice, regardless of whether AI helped write the pitch. A buyer misled into a purchase can generally unwind the contract and claim a full refund within 90 days, so an AI-invented feature or guarantee is not a drafting slip your organization can shrug off.
+
+If you are outside the US and UK, ask:
+```
+What consumer protection or misleading-advertising rules apply to sales claims made with AI help in [your country]?
+```
+
 > **Watch out:** Do not let AI invent a feature, guarantee, or delivery date your product does not actually have. Review every generated claim against your product's real specifications before it reaches a prospect.
 
 > **Good practice:** Give the AI your actual product facts and pricing as part of the prompt, so it works from what is true rather than filling gaps with a plausible-sounding guess.
@@ -84,6 +112,13 @@ Sales professionals face a narrower but still real risk: overstating what a prod
 # Education
 
 Teachers carry a duty to protect student privacy under the Family Educational Rights and Privacy Act (FERPA), and a separate duty to model honest, disclosed use of AI for the students they teach. Both duties apply whether the AI use is for lesson planning or for grading student work.
+
+In the United Kingdom, the Department for Education expects schools to complete a Data Protection Impact Assessment under the UK GDPR before adopting any AI tool, and its guidance is explicit that student data should never go into an open, public AI platform. Schools are expected to adopt a written AI use policy and to be transparent with parents and students about how and where AI is used with their data.
+
+If you are outside the US and UK, ask:
+```
+What student data protection rules apply to teachers using AI tools with school data in [your country]?
+```
 
 > **Watch out:** Free consumer AI accounts are generally not appropriate for uploading identifiable student work, grades, or behavior notes. Check whether your school or district has an approved, FERPA-compliant AI tool before using student data with any assistant.
 
@@ -99,6 +134,13 @@ Teachers carry a duty to protect student privacy under the Family Educational Ri
 
 Financial professionals often hold a fiduciary duty, a legal obligation to act in a client's best interest rather than their own. The Securities and Exchange Commission and FINRA have both made clear that using AI to draft communications or analysis does not reduce a firm's existing supervisory, recordkeeping, and fair-dealing obligations. Client financial data also carries its own confidentiality expectations, separate from the advice itself.
 
+In the United Kingdom, the Financial Conduct Authority (FCA) regulates AI use through its existing, technology-neutral rules rather than AI-specific ones, chiefly the Consumer Duty and the Senior Managers and Certification Regime. A firm must be able to show that any AI-assisted customer interaction, from a chatbot answering a pension question to an AI-drafted suitability letter, still delivers the good outcomes Consumer Duty requires, and a named senior manager remains accountable for harm the AI causes.
+
+If you are outside the US and UK, ask:
+```
+What financial regulator rules apply to using AI in client-facing financial advice in [your country]?
+```
+
 > **Watch out:** Do not paste a real client's account numbers, balances, or portfolio details into a consumer AI account. Firms remain responsible for supervising and retaining anything AI helps produce, so check your firm's policy before using AI for client-facing work.
 
 > **Good practice:** Use rounded, hypothetical figures when drafting explanations or templates, and only substitute real client numbers inside your firm's approved, supervised systems.
@@ -112,6 +154,13 @@ Financial professionals often hold a fiduciary duty, a legal obligation to act i
 # HR and recruiting
 
 Recruiters and HR professionals sit close to employment discrimination law, including Title VII, the Americans with Disabilities Act, and the Age Discrimination in Employment Act. The Equal Employment Opportunity Commission has made clear that using an AI tool in hiring does not shift responsibility for a discriminatory outcome away from the employer, even when a vendor built the tool. Some states and cities, including New York City's Local Law 144, add their own audit and disclosure requirements for automated hiring tools.
+
+In the United Kingdom, the Equality Act 2010 prohibits both direct and indirect discrimination in recruitment across nine protected characteristics, and it applies to a decision made or supported by AI just as it applies to a human interviewer. In March 2026, the Information Commissioner's Office (ICO) published a report and draft guidance on automated decision-making in recruitment, finding that many employers who believed their AI tool was only supporting a human decision were, in practice, letting it make the decision outright.
+
+If you are outside the US and UK, ask:
+```
+What employment discrimination rules apply to using AI in hiring decisions in [your country]?
+```
 
 > **Watch out:** Do not use AI to screen, score, or rank real candidates without confirming your organization has tested the process for adverse impact across protected groups. "The AI did it" is not a defense.
 
@@ -127,6 +176,13 @@ Recruiters and HR professionals sit close to employment discrimination law, incl
 
 Journalists carry a duty to verify facts and disclose their methods, both of which are directly challenged by generative AI. A fabricated quote, an invented statistic, or an unverified claim from an AI assistant becomes a much bigger problem once it appears under a byline. Newsrooms are still building formal AI policies industry-wide, but the underlying duties of sourcing, accuracy, and disclosure have not changed.
 
+In the United Kingdom, the Independent Press Standards Organisation (IPSO) holds publishers to the Editors' Code of Practice regardless of how a story was produced. Clause 1 of the Code requires care not to publish inaccurate, misleading, or distorted material, and responsibility for anything an AI tool gets wrong still rests with the publisher, not the tool. Ofcom has separately been examining AI content labeling for broadcast material, though the UK does not yet impose a statutory AI-labeling requirement.
+
+If you are outside the US and UK, ask:
+```
+What accuracy and disclosure standards apply to journalists using AI tools in [your country]?
+```
+
 > **Watch out:** Never publish a quote, statistic, or citation produced by AI without verifying it against a real, checkable source. AI assistants can produce confident, detailed, and entirely invented details.
 
 > **Good practice:** Use AI for structure, summarization, and first-draft organization, and disclose to your editor and, where your outlet requires it, to readers, which parts of a piece involved AI assistance.
@@ -141,6 +197,13 @@ Journalists carry a duty to verify facts and disclose their methods, both of whi
 
 Real estate professionals work under the Fair Housing Act, which bans discrimination based on race, color, religion, sex, national origin, familial status, or disability in housing sales, rentals, and advertising. The US Department of Housing and Urban Development has issued guidance warning that AI-generated advertising and algorithmic tenant screening can violate the Fair Housing Act even without any intent to discriminate, through how an ad is worded or targeted alone.
 
+In the United Kingdom, there is no direct equivalent to the Fair Housing Act, but the Equality Act 2010 covers housing and property services under the same nine protected characteristics that apply to employment: age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, and sexual orientation. An AI-generated listing or ad that indirectly targets or excludes people with one of these characteristics can breach the Act even without any intention to discriminate.
+
+If you are outside the US and UK, ask:
+```
+What housing or property discrimination rules apply to AI-generated advertising in [your country]?
+```
+
 > **Watch out:** Review every AI-generated property description or ad for language that could describe or target a type of buyer or tenant rather than the property itself, such as references to a neighborhood's demographics or a preferred type of family.
 
 > **Good practice:** Ask AI to describe the property, not the ideal buyer, and review the output against your board's fair housing guidelines before publishing.
@@ -154,6 +217,13 @@ Real estate professionals work under the Fair Housing Act, which bans discrimina
 # Government and public sector
 
 Public-sector employees produce records that are often subject to public disclosure laws, such as the Freedom of Information Act at the federal level or an equivalent state open-records law. Any AI-assisted draft, note, or analysis created as part of official business can become a public record, and government agencies are increasingly expected to keep AI use explainable and auditable rather than hidden inside an unreviewed tool.
+
+In the United Kingdom, the Cabinet Office's Central Digital and Data Office publishes a Generative AI Framework setting out principles for safe use of AI across government and the wider public sector. Records of that AI use are not automatically private: a Freedom of Information Act 2000 request in 2025 successfully obtained records of a government minister's interactions with ChatGPT, establishing that AI prompts and outputs created in the course of official business can be disclosable public records, just as an email or a paper memo would be.
+
+If you are outside the US and UK, ask:
+```
+What public records or freedom of information rules apply to government staff using AI tools in [your country]?
+```
 
 > **Watch out:** Do not use a consumer AI account for drafting anything that states or implies official agency policy, legal position, or a decision about a specific person's benefits or case, without review and approval through your normal process.
 
