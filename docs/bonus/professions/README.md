@@ -5,20 +5,20 @@
 *Regulatory details in this guide were last verified against primary sources in August 2026. Rules, guidance, and links change quickly. Confirm current requirements before relying on any of them.*
 
 - [Introduction](#introduction)
-- [Legal](#legal)
-- [Healthcare](#healthcare)
-- [Mental health and social work](#mental-health-and-social-work)
-- [Marketing](#marketing)
-- [Sales](#sales)
-- [Education](#education)
+- [Education and teaching](#education-and-teaching)
 - [Finance and accounting](#finance-and-accounting)
-- [Insurance](#insurance)
-- [HR and recruiting](#hr-and-recruiting)
-- [Journalism and media](#journalism-and-media)
-- [Real estate](#real-estate)
 - [Government and public sector](#government-and-public-sector)
-- [Software, IT, and cybersecurity](#software-it-and-cybersecurity)
+- [Healthcare](#healthcare)
+  - [Mental health and social work](#mental-health-and-social-work)
+- [HR and recruiting](#hr-and-recruiting)
+- [Insurance](#insurance)
+- [Journalism and media](#journalism-and-media)
+- [Legal](#legal)
+- [Marketing](#marketing)
 - [Nonprofit and fundraising](#nonprofit-and-fundraising)
+- [Real estate](#real-estate)
+- [Sales](#sales)
+- [Software, IT, and cybersecurity](#software-it-and-cybersecurity)
 - [If your profession isn't listed here](#if-your-profession-isnt-listed-here)
 
 # Introduction
@@ -37,126 +37,7 @@ Treat every prompt here as a starting point, not a finished product. Nothing in 
 
 > **Special considerations for regulated and client-facing professions**: Some professions carry a duty that changes how you should use an AI assistant: a duty of confidentiality, a duty to avoid discrimination, a duty to disclose, or a duty to verify before anything reaches a client or the public. This chapter covers fourteen such professions. Each section names the specific risk, gives one habit that reduces it, one mistake to avoid, and several prompts you can adapt to your own work.
 
-# Legal
-
-Attorneys hold a duty of confidentiality that covers almost everything a client tells them, including communications protected by attorney-client privilege, a legal protection that can be permanently lost once shared with an outside tool. Attorneys also hold a duty of competence that now extends to understanding the tools they use. The American Bar Association's Formal Opinion 512, issued in July 2024, states that lawyers using generative AI must understand its capabilities and limitations under Model Rule 1.1 and must protect client information under Model Rule 1.6, regardless of which AI tool touches that information. More than a dozen state bars have since issued their own opinions on the same questions.
-
-In the United Kingdom, the Solicitors Regulation Authority (SRA) has not written AI-specific rules, because it considers the existing SRA Standards and Regulations sufficient: the duty of confidentiality and the duty of competence already cover how a solicitor uses any tool, including AI. Sending client information to a general AI tool without checking its terms can itself breach confidentiality, and using an open, public AI tool for legal research can waive legal professional privilege. In June 2025, the Divisional Court warned that AI tools are not reliable for legal research on their own and that a solicitor who files unverified, AI-generated case citations risks contempt of court. Scotland runs a separate legal system regulated by the Law Society of Scotland, which published its own Guide to Generative AI rather than relying on SRA guidance; if you practice in Scotland, follow that guide instead.
-
-If you are outside the US and UK, ask:
-```
-What confidentiality and legal professional privilege rules apply to a lawyer using AI tools in [your country]?
-```
-
-> **Watch out:** Never paste client names, case facts, or privileged communications into a consumer AI account unless your firm has confirmed that the account meets its confidentiality and data-retention requirements. A general-purpose free account is rarely the right place for this.
-
-> **Good practice:** Use AI to draft, summarize, and organize using anonymized or hypothetical facts, then add real client details yourself once the draft is ready for your own systems.
-
-> **Learn more online:** The SRA publishes compliance tips for solicitors using AI and other technology at [sra.org.uk](https://www.sra.org.uk/solicitors/resources/innovate/compliance-tips-for-solicitors/).
-
-**Prompts to adapt:**
-- `Summarize the key deadlines and obligations in [this contract, with names and figures replaced by placeholders], and flag anything unusual for a [type of agreement].`
-- `Draft an outline for a client letter explaining [a legal concept] in plain language, without referencing any specific case facts.`
-- `List the standard elements of a [type of motion or filing] in [jurisdiction], so I can confirm my draft includes everything required.`
-- `Rewrite this paragraph from a contract to use clearer, plainer language, without changing its legal meaning.`
-
-# Healthcare
-
-Healthcare professionals work under the Health Insurance Portability and Accountability Act (HIPAA), which protects patient health information from being shared with anyone or anything that has not agreed to protect it the same way, typically through a business associate agreement, a contract that legally binds a vendor to HIPAA's privacy and security rules. The US Department of Health and Human Services' Office for Civil Rights has made clear that HIPAA's technical safeguards apply to any AI system that touches protected health information, and that a vendor's own security claims do not remove your organization's responsibility to verify them.
-
-In the United Kingdom, NHS England's own guidance tells staff not to enter personal, confidential, or business-sensitive data into public generative AI tools such as ChatGPT, under the UK General Data Protection Regulation (UK GDPR) and the wider duty of patient confidentiality. Reusing patient data for training or research purposes generally requires either removing identifying details or, where that is not possible, a formal application to the Health Research Authority's Confidentiality Advisory Group.
-
-Mental health and substance-use records carry even stricter protection than general medical records; the next section covers that separately.
-
-If you are outside the US and UK, ask:
-```
-What patient data protection and confidentiality rules apply to healthcare staff using AI tools in [your country]?
-```
-
-> **Watch out:** A consumer AI account is not a HIPAA-covered tool unless your organization has a signed business associate agreement with the provider. Typing a real patient's name, diagnosis, or chart notes into a general AI chat is a data breach, not a shortcut.
-
-> **Good practice:** Draft with placeholders (a fictional patient, a general condition, a rounded age) and only add real identifying details afterward, inside your organization's approved systems.
-
-> **Learn more online:** NHS England Digital publishes AI guidance for patients and service users at [digital.nhs.uk](https://digital.nhs.uk/data-and-information/information-governance/guidance/artificial-intelligence/guidance-for-patients-and-service-users).
-
-**Prompts to adapt:**
-- `Draft a plain-language explanation of [a diagnosis or condition] that a patient with no medical background could understand.`
-- `Write a template for a discharge instruction sheet for [a condition or procedure], with placeholders for medication names and follow-up dates.`
-- `Summarize the general symptoms and standard treatment options for [a condition], citing that this is general information and not a diagnosis.`
-- `Suggest three ways to phrase a difficult conversation about [a general topic, such as a treatment delay], without referencing a specific patient.`
-
-# Mental health and social work
-
-Therapists, counselors, and social workers carry the same HIPAA duties as other healthcare professionals, plus two extra layers. HIPAA gives special, stricter protection to "psychotherapy notes," the personal notes a therapist keeps about a counseling session, separate from the rest of the medical record. A separate federal law, 42 CFR Part 2, gives substance use disorder treatment records even stricter confidentiality; a 2024 update aligning that law more closely with HIPAA took full effect in February 2026, but its stricter consent requirements remain. Social workers and counselors also carry mandatory reporting duties in many states, a legal responsibility that is yours alone to carry out and that no AI assistant can fulfil for you.
-
-In the United Kingdom, the British Association for Counselling and Psychotherapy's new Ethical Framework for the Counselling Professions, mandatory from November 2026, includes guidance on AI and digital technology for the first time. The Health and Care Professions Council separately regulates practitioners across the wider talking therapies, including registered social workers.
-
-If you are outside the US and UK, ask:
-```
-What extra confidentiality rules apply to therapy, counseling, or social work records when using AI tools in [your country]?
-```
-
-> **Watch out:** Never paste psychotherapy notes, substance-use treatment details, or anything that could identify a client into a general AI account. These records carry stricter protection than ordinary medical notes, and a mandatory reporting duty is yours to carry out, not an AI's.
-
-> **Good practice:** Use AI for general resource drafting, such as a coping-strategies handout or a plain-language explanation of a therapeutic approach, built from hypothetical situations. Keep session notes and identifying details entirely out of consumer AI tools.
-
-> **Learn more online:** The British Association for Counselling and Psychotherapy publishes AI guidelines for practitioners at [bacp.co.uk](https://www.bacp.co.uk/media/23675/bacp-ai-guidelines.pdf).
-
-**Prompts to adapt:**
-- `Draft a plain-language handout on [a coping strategy or therapeutic technique] that a client could take home.`
-- `Explain [a therapeutic approach, such as cognitive behavioral therapy] in accessible language for someone new to therapy.`
-- `Suggest three open-ended questions a counselor could ask to explore [a general topic, such as workplace stress], without referencing a specific client.`
-- `Summarize the general signs and standard support options for [a general condition], noting this is general information and not a diagnosis.`
-
-# Marketing
-
-Marketers who use AI to help write or generate content face a two-part disclosure rule. As of 2026, the Federal Trade Commission generally expects separate disclosures for sponsorship and for AI involvement. A label that says a post is sponsored does not also cover AI involvement, and a label that says content is AI-generated does not also cover a paid relationship. Both statements must appear when both apply.
-
-In the United Kingdom, there is no blanket legal requirement to label an ad as AI-generated. Instead, the Advertising Standards Authority and its Committee of Advertising Practice apply the existing CAP Code: the question is whether an audience would be misled by not knowing AI was involved, not whether AI was used at all. From June 2026, CAP guidance specifically addresses AI-generated deepfakes, synthetic endorsements, and misleading product depictions as breaches of existing rules, whether or not an advertiser separately discloses AI use.
-
-If you are outside the US and UK, ask:
-```
-What advertising and AI-disclosure rules apply to marketers using AI-generated content in [your country]?
-```
-
-> **Watch out:** Do not treat a single disclosure, such as "#ad," as covering AI involvement too. If a post is both sponsored and AI-assisted, disclose both facts as separate, visible statements.
-
-> **Good practice:** Keep a short internal note on which parts of a campaign used AI assistance (a draft, an image, a voiceover) so your disclosure is accurate rather than guessed at after the fact.
-
-> **Real-world example:** In 2026, the UK's Information Commissioner's Office found that 93% of UK adults think AI-generated content should be labeled, well ahead of any legal requirement to do so. Some brands now disclose AI involvement voluntarily for exactly this reason, even where the CAP Code does not yet require it.
-
-> **Learn more online:** The ASA and CAP explain their approach to AI disclosure in advertising at [asa.org.uk](https://www.asa.org.uk/news/disclosure-of-ai-in-advertising-striking-the-balance-between-creativity-and-responsibility.html).
-
-**Prompts to adapt:**
-- `Draft three subject-line options for an email campaign about [product or offer], each under 50 characters.`
-- `Compare the tone and structure of these two ad drafts for [audience], and suggest which fits a [formal/casual] brand voice better.`
-- `Suggest five angles for a social post about [topic], written for an audience that already knows the product.`
-- `Rewrite this product description to lead with the customer benefit rather than the feature list: [paste description].`
-
-# Sales
-
-Sales professionals face a narrower but still real risk: overstating what a product or service can do. Claims made in a sales conversation, proposal, or follow-up email can create a binding representation, and general consumer-protection law treats a false or misleading claim about a product the same whether a human or an AI assistant wrote the words.
-
-In the United Kingdom, the Consumer Protection from Unfair Trading Regulations 2008, carried forward under the Digital Markets, Competition and Consumers Act 2024, ban misleading actions and misleading omissions in any commercial practice, regardless of whether AI helped write the pitch. A buyer misled into a purchase can generally unwind the contract and claim a full refund within 90 days, so an AI-invented feature or guarantee is not a drafting slip your organization can shrug off.
-
-If you are outside the US and UK, ask:
-```
-What consumer protection or misleading-advertising rules apply to sales claims made with AI help in [your country]?
-```
-
-> **Watch out:** Do not let AI invent a feature, guarantee, or delivery date your product does not actually have. Review every generated claim against your product's real specifications before it reaches a prospect.
-
-> **Good practice:** Give the AI your actual product facts and pricing as part of the prompt, so it works from what is true rather than filling gaps with a plausible-sounding guess.
-
-> **Learn more online:** The FTC publishes business guidance on advertising claims and AI at [ftc.gov/business-guidance](https://www.ftc.gov/business-guidance).
-
-**Prompts to adapt:**
-- `Using these facts about [the product: list specifications, pricing, and limits], draft a follow-up email after a sales call with [prospect's role or industry].`
-- `Compare our offer against a competitor's based on these facts only: [list facts], and highlight where we are genuinely stronger.`
-- `Draft three responses to the objection "[a common objection]," based only on our actual pricing and features.`
-- `Summarize this call transcript into next steps and open questions: [paste transcript].`
-
-# Education
+# Education and teaching
 
 Teachers carry a duty to protect student privacy under the Family Educational Rights and Privacy Act (FERPA), and a separate duty to model honest, disclosed use of AI for the students they teach. Both duties apply whether the AI use is for lesson planning or for grading student work.
 
@@ -202,6 +83,106 @@ What financial regulator rules apply to using AI in client-facing financial advi
 - `List the standard disclosures typically required when discussing [a type of financial product], so I can confirm my draft is complete.`
 - `Summarize this general market trend in two paragraphs suitable for a client newsletter: [paste public article or data].`
 
+# Government and public sector
+
+![Government and public sector](Bonus-Chapter-Profession-Specific-Prompts-Gov.png)
+
+Public-sector employees produce records that are often subject to public disclosure laws, such as the Freedom of Information Act at the federal level or an equivalent state open-records law. Any AI-assisted draft, note, or analysis created as part of official business can become a public record, and government agencies are increasingly expected to keep AI use explainable and auditable rather than hidden inside an unreviewed tool.
+
+In the United Kingdom, the Cabinet Office's Central Digital and Data Office publishes a Generative AI Framework setting out principles for safe use of AI across government and the wider public sector. Records of that AI use are not automatically private: a Freedom of Information Act 2000 request in 2025 successfully obtained records of a government minister's interactions with ChatGPT, establishing that AI prompts and outputs created in the course of official business can be disclosable public records, just as an email or a paper memo would be.
+
+If you are outside the US and UK, ask:
+```
+What public records or freedom of information rules apply to government staff using AI tools in [your country]?
+```
+
+> **Watch out:** Do not use a consumer AI account for drafting anything that states or implies official agency policy, legal position, or a decision about a specific person's benefits or case, without review and approval through your normal process.
+
+> **Good practice:** Keep a record of when and how you used AI to help draft public-facing material, the same way you would document any other drafting tool, in case the record is requested later.
+
+> **Learn more online:** The UK government publishes its Generative AI Framework for the public sector at [gov.uk](https://www.gov.uk).
+
+**Prompts to adapt:**
+- `Draft a plain-language summary of [a public policy or program] for a general audience, based only on this official source text: [paste text].`
+- `Suggest a structure for a public meeting agenda covering these topics: [list topics].`
+- `Rewrite this internal memo into a public-facing FAQ, keeping every fact unchanged: [paste memo].`
+- `List the standard sections typically included in a [type of public report], so I can check my draft is complete.`
+
+# Healthcare
+
+Healthcare professionals work under the Health Insurance Portability and Accountability Act (HIPAA), which protects patient health information from being shared with anyone or anything that has not agreed to protect it the same way, typically through a business associate agreement, a contract that legally binds a vendor to HIPAA's privacy and security rules. The US Department of Health and Human Services' Office for Civil Rights has made clear that HIPAA's technical safeguards apply to any AI system that touches protected health information, and that a vendor's own security claims do not remove your organization's responsibility to verify them.
+
+In the United Kingdom, NHS England's own guidance tells staff not to enter personal, confidential, or business-sensitive data into public generative AI tools such as ChatGPT, under the UK General Data Protection Regulation (UK GDPR) and the wider duty of patient confidentiality. Reusing patient data for training or research purposes generally requires either removing identifying details or, where that is not possible, a formal application to the Health Research Authority's Confidentiality Advisory Group.
+
+Mental health and substance-use records carry even stricter protection than general medical records; the next section covers that separately.
+
+If you are outside the US and UK, ask:
+```
+What patient data protection and confidentiality rules apply to healthcare staff using AI tools in [your country]?
+```
+
+> **Watch out:** A consumer AI account is not a HIPAA-covered tool unless your organization has a signed business associate agreement with the provider. Typing a real patient's name, diagnosis, or chart notes into a general AI chat is a data breach, not a shortcut.
+
+> **Good practice:** Draft with placeholders (a fictional patient, a general condition, a rounded age) and only add real identifying details afterward, inside your organization's approved systems.
+
+> **Learn more online:** NHS England Digital publishes AI guidance for patients and service users at [digital.nhs.uk](https://digital.nhs.uk/data-and-information/information-governance/guidance/artificial-intelligence/guidance-for-patients-and-service-users).
+
+**Prompts to adapt:**
+- `Draft a plain-language explanation of [a diagnosis or condition] that a patient with no medical background could understand.`
+- `Write a template for a discharge instruction sheet for [a condition or procedure], with placeholders for medication names and follow-up dates.`
+- `Summarize the general symptoms and standard treatment options for [a condition], citing that this is general information and not a diagnosis.`
+- `Suggest three ways to phrase a difficult conversation about [a general topic, such as a treatment delay], without referencing a specific patient.`
+
+## Mental health and social work
+
+Therapists, counselors, and social workers carry the same HIPAA duties as other healthcare professionals, plus two extra layers. HIPAA gives special, stricter protection to "psychotherapy notes," the personal notes a therapist keeps about a counseling session, separate from the rest of the medical record. A separate federal law, 42 CFR Part 2, gives substance use disorder treatment records even stricter confidentiality; a 2024 update aligning that law more closely with HIPAA took full effect in February 2026, but its stricter consent requirements remain. Social workers and counselors also carry mandatory reporting duties in many states, a legal responsibility that is yours alone to carry out and that no AI assistant can fulfil for you.
+
+In the United Kingdom, the British Association for Counselling and Psychotherapy's new Ethical Framework for the Counselling Professions, mandatory from November 2026, includes guidance on AI and digital technology for the first time. The Health and Care Professions Council separately regulates practitioners across the wider talking therapies, including registered social workers.
+
+If you are outside the US and UK, ask:
+```
+What extra confidentiality rules apply to therapy, counseling, or social work records when using AI tools in [your country]?
+```
+
+> **Watch out:** Never paste psychotherapy notes, substance-use treatment details, or anything that could identify a client into a general AI account. These records carry stricter protection than ordinary medical notes, and a mandatory reporting duty is yours to carry out, not an AI's.
+
+> **Good practice:** Use AI for general resource drafting, such as a coping-strategies handout or a plain-language explanation of a therapeutic approach, built from hypothetical situations. Keep session notes and identifying details entirely out of consumer AI tools.
+
+> **Learn more online:** The British Association for Counselling and Psychotherapy publishes AI guidelines for practitioners at [bacp.co.uk](https://www.bacp.co.uk/media/23675/bacp-ai-guidelines.pdf).
+
+**Prompts to adapt:**
+- `Draft a plain-language handout on [a coping strategy or therapeutic technique] that a client could take home.`
+- `Explain [a therapeutic approach, such as cognitive behavioral therapy] in accessible language for someone new to therapy.`
+- `Suggest three open-ended questions a counselor could ask to explore [a general topic, such as workplace stress], without referencing a specific client.`
+- `Summarize the general signs and standard support options for [a general condition], noting this is general information and not a diagnosis.`
+
+# HR and recruiting
+
+![HR and recruiting](Bonus-Chapter-Profession-Specific-Prompts-HR.png)
+
+Recruiters and HR professionals sit close to employment discrimination law, including Title VII, the Americans with Disabilities Act, and the Age Discrimination in Employment Act. The Equal Employment Opportunity Commission has made clear that using an AI tool in hiring does not shift responsibility for a discriminatory outcome away from the employer, even when a vendor built the tool. Part of that responsibility is testing for adverse impact: a statistical pattern showing that a process disqualifies people in a protected group at a meaningfully higher rate than others, even without anyone intending it. Some states and cities, including New York City's Local Law 144, add their own audit and disclosure requirements for automated hiring tools.
+
+In the United Kingdom, the Equality Act 2010 prohibits both direct and indirect discrimination in recruitment across nine protected characteristics, and it applies to a decision made or supported by AI just as it applies to a human interviewer. In March 2026, the Information Commissioner's Office (ICO) published a report and draft guidance on automated decision-making in recruitment, finding that many employers who believed their AI tool was only supporting a human decision were, in practice, letting it make the decision outright.
+
+If you are outside the US and UK, ask:
+```
+What employment discrimination rules apply to using AI in hiring decisions in [your country]?
+```
+
+> **Watch out:** Do not use AI to screen, score, or rank real candidates without confirming your organization has tested the process for adverse impact across protected groups. "The AI did it" is not a defense.
+
+> **Good practice:** Use AI to draft job postings, interview questions, and structured feedback templates, which keep a human making every decision about an individual candidate.
+
+> **Real-world example:** The ICO's March 2026 review of UK recruitment tools found that most employers using AI to screen candidates believed the tool was merely supporting a human decision, when in practice the tool was making the decision outright, a compliance gap the regulator described as widespread rather than exceptional.
+
+> **Learn more online:** The UK government's guide to responsible AI in recruitment is published at [gov.uk](https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment).
+
+**Prompts to adapt:**
+- `Write a job posting for [role] that focuses on required skills and avoids language that could discourage any protected group from applying.`
+- `Draft five structured interview questions for [role] that ask every candidate the same thing.`
+- `Create a feedback template for interviewers to fill in after speaking with a candidate for [role], focused on job-related criteria.`
+- `Summarize this policy document into a plain-language FAQ for new employees: [paste policy].`
+
 # Insurance
 
 Underwriters, claims adjusters, and insurance agents work under rules coordinated by the National Association of Insurance Commissioners (NAIC), a body that develops model regulation for individual state insurance departments to adopt. Its Model Bulletin on the Use of AI Systems by Insurers, first published in 2023, requires insurers to maintain a written AI governance program covering underwriting, rating, claims, fraud detection, and marketing, with documentation detailed enough for a regulator to reconstruct any specific consumer-facing decision. More than half of US states had adopted the bulletin or substantially similar rules by early 2026.
@@ -227,32 +208,9 @@ What insurance regulator rules apply to using AI in underwriting or claims decis
 - `List the standard factors typically considered when underwriting a [type of policy], so I can confirm our documented criteria matches this.`
 - `Draft a customer-facing letter explaining a premium change for [type of policy], using only these actual factors: [list factors].`
 
-# HR and recruiting
-
-Recruiters and HR professionals sit close to employment discrimination law, including Title VII, the Americans with Disabilities Act, and the Age Discrimination in Employment Act. The Equal Employment Opportunity Commission has made clear that using an AI tool in hiring does not shift responsibility for a discriminatory outcome away from the employer, even when a vendor built the tool. Part of that responsibility is testing for adverse impact: a statistical pattern showing that a process disqualifies people in a protected group at a meaningfully higher rate than others, even without anyone intending it. Some states and cities, including New York City's Local Law 144, add their own audit and disclosure requirements for automated hiring tools.
-
-In the United Kingdom, the Equality Act 2010 prohibits both direct and indirect discrimination in recruitment across nine protected characteristics, and it applies to a decision made or supported by AI just as it applies to a human interviewer. In March 2026, the Information Commissioner's Office (ICO) published a report and draft guidance on automated decision-making in recruitment, finding that many employers who believed their AI tool was only supporting a human decision were, in practice, letting it make the decision outright.
-
-If you are outside the US and UK, ask:
-```
-What employment discrimination rules apply to using AI in hiring decisions in [your country]?
-```
-
-> **Watch out:** Do not use AI to screen, score, or rank real candidates without confirming your organization has tested the process for adverse impact across protected groups. "The AI did it" is not a defense.
-
-> **Good practice:** Use AI to draft job postings, interview questions, and structured feedback templates, which keep a human making every decision about an individual candidate.
-
-> **Real-world example:** The ICO's March 2026 review of UK recruitment tools found that most employers using AI to screen candidates believed the tool was merely supporting a human decision, when in practice the tool was making the decision outright, a compliance gap the regulator described as widespread rather than exceptional.
-
-> **Learn more online:** The UK government's guide to responsible AI in recruitment is published at [gov.uk](https://www.gov.uk/government/publications/responsible-ai-in-recruitment-guide/responsible-ai-in-recruitment).
-
-**Prompts to adapt:**
-- `Write a job posting for [role] that focuses on required skills and avoids language that could discourage any protected group from applying.`
-- `Draft five structured interview questions for [role] that ask every candidate the same thing.`
-- `Create a feedback template for interviewers to fill in after speaking with a candidate for [role], focused on job-related criteria.`
-- `Summarize this policy document into a plain-language FAQ for new employees: [paste policy].`
-
 # Journalism and media
+
+![Journalism and media](Bonus-Chapter-Profession-Specific-Prompts-Journalism.png)
 
 Journalists carry a duty to verify facts and disclose their methods, both of which are directly challenged by generative AI. A fabricated quote, an invented statistic, or an unverified claim from an AI assistant becomes a much bigger problem once it appears under a byline. Newsrooms are still building formal AI policies industry-wide, but the underlying duties of sourcing, accuracy, and disclosure have not changed.
 
@@ -274,6 +232,81 @@ What accuracy and disclosure standards apply to journalists using AI tools in [y
 - `Suggest three possible headlines for this draft that accurately reflect its content, without exaggerating the claim: [paste draft].`
 - `Draft an outline for a story on [topic], listing the sources I still need to verify each claim.`
 - `Rewrite this paragraph for a general audience, keeping every fact and figure exactly as stated: [paste paragraph].`
+
+# Legal
+
+![Legal](Bonus-Chapter-Profession-Specific-Prompts-Legal.png)
+
+Attorneys hold a duty of confidentiality that covers almost everything a client tells them, including communications protected by attorney-client privilege, a legal protection that can be permanently lost once shared with an outside tool. Attorneys also hold a duty of competence that now extends to understanding the tools they use. The American Bar Association's Formal Opinion 512, issued in July 2024, states that lawyers using generative AI must understand its capabilities and limitations under Model Rule 1.1 and must protect client information under Model Rule 1.6, regardless of which AI tool touches that information. More than a dozen state bars have since issued their own opinions on the same questions.
+
+In the United Kingdom, the Solicitors Regulation Authority (SRA) has not written AI-specific rules, because it considers the existing SRA Standards and Regulations sufficient: the duty of confidentiality and the duty of competence already cover how a solicitor uses any tool, including AI. Sending client information to a general AI tool without checking its terms can itself breach confidentiality, and using an open, public AI tool for legal research can waive legal professional privilege. In June 2025, the Divisional Court warned that AI tools are not reliable for legal research on their own and that a solicitor who files unverified, AI-generated case citations risks contempt of court. Scotland runs a separate legal system regulated by the Law Society of Scotland, which published its own Guide to Generative AI rather than relying on SRA guidance; if you practice in Scotland, follow that guide instead.
+
+If you are outside the US and UK, ask:
+```
+What confidentiality and legal professional privilege rules apply to a lawyer using AI tools in [your country]?
+```
+
+> **Watch out:** Never paste client names, case facts, or privileged communications into a consumer AI account unless your firm has confirmed that the account meets its confidentiality and data-retention requirements. A general-purpose free account is rarely the right place for this.
+
+> **Good practice:** Use AI to draft, summarize, and organize using anonymized or hypothetical facts, then add real client details yourself once the draft is ready for your own systems.
+
+> **Learn more online:** The SRA publishes compliance tips for solicitors using AI and other technology at [sra.org.uk](https://www.sra.org.uk/solicitors/resources/innovate/compliance-tips-for-solicitors/).
+
+**Prompts to adapt:**
+- `Summarize the key deadlines and obligations in [this contract, with names and figures replaced by placeholders], and flag anything unusual for a [type of agreement].`
+- `Draft an outline for a client letter explaining [a legal concept] in plain language, without referencing any specific case facts.`
+- `List the standard elements of a [type of motion or filing] in [jurisdiction], so I can confirm my draft includes everything required.`
+- `Rewrite this paragraph from a contract to use clearer, plainer language, without changing its legal meaning.`
+
+# Marketing
+
+![Marketing](Bonus-Chapter-Profession-Specific-Prompts-Sales.png)
+
+Marketers who use AI to help write or generate content face a two-part disclosure rule. As of 2026, the Federal Trade Commission generally expects separate disclosures for sponsorship and for AI involvement. A label that says a post is sponsored does not also cover AI involvement, and a label that says content is AI-generated does not also cover a paid relationship. Both statements must appear when both apply.
+
+In the United Kingdom, there is no blanket legal requirement to label an ad as AI-generated. Instead, the Advertising Standards Authority and its Committee of Advertising Practice apply the existing CAP Code: the question is whether an audience would be misled by not knowing AI was involved, not whether AI was used at all. From June 2026, CAP guidance specifically addresses AI-generated deepfakes, synthetic endorsements, and misleading product depictions as breaches of existing rules, whether or not an advertiser separately discloses AI use.
+
+If you are outside the US and UK, ask:
+```
+What advertising and AI-disclosure rules apply to marketers using AI-generated content in [your country]?
+```
+
+> **Watch out:** Do not treat a single disclosure, such as "#ad," as covering AI involvement too. If a post is both sponsored and AI-assisted, disclose both facts as separate, visible statements.
+
+> **Good practice:** Keep a short internal note on which parts of a campaign used AI assistance (a draft, an image, a voiceover) so your disclosure is accurate rather than guessed at after the fact.
+
+> **Real-world example:** In 2026, the UK's Information Commissioner's Office found that 93% of UK adults think AI-generated content should be labeled, well ahead of any legal requirement to do so. Some brands now disclose AI involvement voluntarily for exactly this reason, even where the CAP Code does not yet require it.
+
+> **Learn more online:** The ASA and CAP explain their approach to AI disclosure in advertising at [asa.org.uk](https://www.asa.org.uk/news/disclosure-of-ai-in-advertising-striking-the-balance-between-creativity-and-responsibility.html).
+
+**Prompts to adapt:**
+- `Draft three subject-line options for an email campaign about [product or offer], each under 50 characters.`
+- `Compare the tone and structure of these two ad drafts for [audience], and suggest which fits a [formal/casual] brand voice better.`
+- `Suggest five angles for a social post about [topic], written for an audience that already knows the product.`
+- `Rewrite this product description to lead with the customer benefit rather than the feature list: [paste description].`
+
+# Nonprofit and fundraising
+
+Nonprofit staff carry a duty to use donor data the way they said they would. The Federal Trade Commission's ban on unfair or deceptive practices applies to charities the same as any other organization, so a nonprofit's own privacy policy promises about donor data become enforceable once broken, including by an AI tool that uses donor data in a way the policy never disclosed. A 2026 sector survey found that 92% of nonprofits already use AI tools, but 76% have no AI governance policy covering how donor data is handled.
+
+In the United Kingdom, the Fundraising Regulator published its first dedicated guidance on AI in fundraising in 2026, expecting charities to adopt a written AI policy before using AI tools, involve trustees in decisions about AI, and keep human oversight over the accuracy, fairness, and legality of anything AI drafts before it reaches a donor.
+
+If you are outside the US and UK, ask:
+```
+What donor data protection or charity regulation rules apply to nonprofits using AI tools in [your country]?
+```
+
+> **Watch out:** Do not paste real donor names, giving histories, or contact details into a consumer AI account. Use anonymized or rounded, hypothetical figures instead, and check whether your organization's own privacy policy already promises donors you will not do this.
+
+> **Good practice:** Put a simple, written AI policy in place, and have your board or a senior staff member sign off on it before your team uses AI in donor communications, matching what UK regulators already expect.
+
+> **Learn more online:** The Fundraising Regulator's guidance on using AI in fundraising is published at [fundraisingregulator.org.uk](https://www.fundraisingregulator.org.uk/about-fundraising/resources/guidance-using-artificial-intelligence-fundraising).
+
+**Prompts to adapt:**
+- `Draft a thank-you letter for a donor who gave [amount or type of gift] to support [program], based only on these facts: [list facts].`
+- `Summarize this annual report into a two-paragraph impact update for a newsletter, using only the figures provided: [paste report].`
+- `Suggest three subject lines for a fundraising email about [campaign or cause], based on the actual campaign goal and deadline.`
+- `Draft a simple, one-page AI use policy for a small nonprofit, covering donor data and donor communications.`
 
 # Real estate
 
@@ -300,30 +333,32 @@ What housing or property discrimination rules apply to AI-generated advertising 
 - `Draft a neutral, factual response to a buyer's question about [a neighborhood amenity, such as schools or transit], without commenting on who lives there.`
 - `Summarize these inspection notes into a plain-language list for a buyer: [paste notes].`
 
-# Government and public sector
+# Sales
 
-Public-sector employees produce records that are often subject to public disclosure laws, such as the Freedom of Information Act at the federal level or an equivalent state open-records law. Any AI-assisted draft, note, or analysis created as part of official business can become a public record, and government agencies are increasingly expected to keep AI use explainable and auditable rather than hidden inside an unreviewed tool.
+Sales professionals face a narrower but still real risk: overstating what a product or service can do. Claims made in a sales conversation, proposal, or follow-up email can create a binding representation, and general consumer-protection law treats a false or misleading claim about a product the same whether a human or an AI assistant wrote the words.
 
-In the United Kingdom, the Cabinet Office's Central Digital and Data Office publishes a Generative AI Framework setting out principles for safe use of AI across government and the wider public sector. Records of that AI use are not automatically private: a Freedom of Information Act 2000 request in 2025 successfully obtained records of a government minister's interactions with ChatGPT, establishing that AI prompts and outputs created in the course of official business can be disclosable public records, just as an email or a paper memo would be.
+In the United Kingdom, the Consumer Protection from Unfair Trading Regulations 2008, carried forward under the Digital Markets, Competition and Consumers Act 2024, ban misleading actions and misleading omissions in any commercial practice, regardless of whether AI helped write the pitch. A buyer misled into a purchase can generally unwind the contract and claim a full refund within 90 days, so an AI-invented feature or guarantee is not a drafting slip your organization can shrug off.
 
 If you are outside the US and UK, ask:
 ```
-What public records or freedom of information rules apply to government staff using AI tools in [your country]?
+What consumer protection or misleading-advertising rules apply to sales claims made with AI help in [your country]?
 ```
 
-> **Watch out:** Do not use a consumer AI account for drafting anything that states or implies official agency policy, legal position, or a decision about a specific person's benefits or case, without review and approval through your normal process.
+> **Watch out:** Do not let AI invent a feature, guarantee, or delivery date your product does not actually have. Review every generated claim against your product's real specifications before it reaches a prospect.
 
-> **Good practice:** Keep a record of when and how you used AI to help draft public-facing material, the same way you would document any other drafting tool, in case the record is requested later.
+> **Good practice:** Give the AI your actual product facts and pricing as part of the prompt, so it works from what is true rather than filling gaps with a plausible-sounding guess.
 
-> **Learn more online:** The UK government publishes its Generative AI Framework for the public sector at [gov.uk](https://www.gov.uk).
+> **Learn more online:** The FTC publishes business guidance on advertising claims and AI at [ftc.gov/business-guidance](https://www.ftc.gov/business-guidance).
 
 **Prompts to adapt:**
-- `Draft a plain-language summary of [a public policy or program] for a general audience, based only on this official source text: [paste text].`
-- `Suggest a structure for a public meeting agenda covering these topics: [list topics].`
-- `Rewrite this internal memo into a public-facing FAQ, keeping every fact unchanged: [paste memo].`
-- `List the standard sections typically included in a [type of public report], so I can check my draft is complete.`
+- `Using these facts about [the product: list specifications, pricing, and limits], draft a follow-up email after a sales call with [prospect's role or industry].`
+- `Compare our offer against a competitor's based on these facts only: [list facts], and highlight where we are genuinely stronger.`
+- `Draft three responses to the objection "[a common objection]," based only on our actual pricing and features.`
+- `Summarize this call transcript into next steps and open questions: [paste transcript].`
 
 # Software, IT, and cybersecurity
+
+![Software, IT, and cybersecurity](Bonus-Chapter-Profession-Specific-Prompts-Developer.png)
 
 Developers and IT professionals face two risks that are easy to miss because they show up later, not immediately. A 2026 industry study testing over 500 AI-generated code samples across six major AI models found that roughly one in four contained a confirmed security vulnerability. Separately, the line between AI-generated code and open-source licensing remains legally unsettled: if AI-suggested code closely resembles a copyleft-licensed snippet and ends up in a proprietary product, the company can face license obligations it never knowingly accepted, and AI tool vendors generally disclaim liability for this, leaving the developer or company holding the risk.
 
@@ -347,29 +382,6 @@ What data protection or software liability rules apply to a business shipping AI
 - `Explain what this code does in plain language, line by line: [paste code].`
 - `Suggest test cases that would catch common mistakes in a function that [describe what the function should do].`
 - `Summarize the open-source license terms of [library or package name] in plain language, including what it would require if I included its code in a commercial product.`
-
-# Nonprofit and fundraising
-
-Nonprofit staff carry a duty to use donor data the way they said they would. The Federal Trade Commission's ban on unfair or deceptive practices applies to charities the same as any other organization, so a nonprofit's own privacy policy promises about donor data become enforceable once broken, including by an AI tool that uses donor data in a way the policy never disclosed. A 2026 sector survey found that 92% of nonprofits already use AI tools, but 76% have no AI governance policy covering how donor data is handled.
-
-In the United Kingdom, the Fundraising Regulator published its first dedicated guidance on AI in fundraising in 2026, expecting charities to adopt a written AI policy before using AI tools, involve trustees in decisions about AI, and keep human oversight over the accuracy, fairness, and legality of anything AI drafts before it reaches a donor.
-
-If you are outside the US and UK, ask:
-```
-What donor data protection or charity regulation rules apply to nonprofits using AI tools in [your country]?
-```
-
-> **Watch out:** Do not paste real donor names, giving histories, or contact details into a consumer AI account. Use anonymized or rounded, hypothetical figures instead, and check whether your organization's own privacy policy already promises donors you will not do this.
-
-> **Good practice:** Put a simple, written AI policy in place, and have your board or a senior staff member sign off on it before your team uses AI in donor communications, matching what UK regulators already expect.
-
-> **Learn more online:** The Fundraising Regulator's guidance on using AI in fundraising is published at [fundraisingregulator.org.uk](https://www.fundraisingregulator.org.uk/about-fundraising/resources/guidance-using-artificial-intelligence-fundraising).
-
-**Prompts to adapt:**
-- `Draft a thank-you letter for a donor who gave [amount or type of gift] to support [program], based only on these facts: [list facts].`
-- `Summarize this annual report into a two-paragraph impact update for a newsletter, using only the figures provided: [paste report].`
-- `Suggest three subject lines for a fundraising email about [campaign or cause], based on the actual campaign goal and deadline.`
-- `Draft a simple, one-page AI use policy for a small nonprofit, covering donor data and donor communications.`
 
 # If your profession isn't listed here
 
