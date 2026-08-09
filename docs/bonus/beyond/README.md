@@ -60,15 +60,15 @@ Claude and ChatGPT often solve the same problem with a feature that carries a di
 
 | What you want to do | ChatGPT calls it | Claude calls it |
 | --- | --- | --- |
-| Desktop "super app" | ChatGPT app | Claude app |
+| Work in a "super app" | ChatGPT app | Claude app |
 | Ask and research | Chat | Chat |
 | Create documents | Work | Cowork |
 | Software development | Codex | Code |
-| Watch an AI build or edit a document or piece of code beside the conversation | Writing block | Artifacts |
+| Build or edit a document beside the conversation | Writing block | Artifacts |
 | Keep files and instructions together for one ongoing job | Projects | Projects |
 | Build a reusable, task-specific assistant | Skills | Skills |
 | Build a reusable, sharable specialized AI | Custom GPTs | - |
-| Installable extensions | Plugins | Plugins |
+| Install an extension | Plugins | Plugins |
 | Connect to external systems | Apps, MCP | Connectors, MCP |
 | Control the local computer | Computer Use | Computer Use |
 
@@ -80,8 +80,8 @@ Here's the official pricing/plans page for each:
 
 - **ChatGPT**: [openai.com/chatgpt/pricing](https://openai.com/chatgpt/pricing) — covers Free, Go, Plus, and Pro; a separate [Business pricing page](https://openai.com/business/chatgpt-pricing/) covers Business and Enterprise.
 - **Claude**: [claude.com/pricing](https://claude.com/pricing) — covers Free, Pro, Max, Team, and Enterprise.
-- **Mistral Vibe**: [mistral.ai/pricing](https://mistral.ai/pricing) — covers Free, Pro, Team, and Enterprise for the renamed Le Chat/Vibe app.
 - **Google Gemini**: [one.google.com/about/google-ai-plans](https://one.google.com/intl/en_us/about/google-ai-plans/) — covers Free, AI Plus, AI Pro, and the two AI Ultra tiers.
+- **Mistral Vibe**: [mistral.ai/pricing](https://mistral.ai/pricing) — covers Free, Pro, Team, and Enterprise for the renamed Le Chat/Vibe app.
 
 For a knowledge-worker experience close to what *Book 1* describes for the ChatGPT desktop app, the best link is DeepSeek's own chat app at [chat.deepseek.com](https://chat.deepseek.com/). It's free for personal use, available on web, iOS, and Android, and includes a long context window and a visible reasoning mode comparable in spirit to ChatGPT's features. But unlike ChatGPT and Claude, DeepSeek does not ship an official native desktop application for Windows or Mac. What circulates as "DeepSeek Desktop" is an unofficial, community-built wrapper around the same web app, not something DeepSeek maintains itself, so be careful if you choose to install that.
 
@@ -93,13 +93,13 @@ To summarize, ChatGPT has the widest reach across casual and consumer use. Claud
 
 Metric|OpenAI ChatGPT|Anthropic Claude
 ---|---|---
-Total users (all tiers)|900 million weekly active users|Not officially disclosed. Third-party estimates for monthly active users start at 12 million
+Total users (all tiers)|900 million weekly active users|Not officially disclosed. Third-party estimates for monthly active users start at 12 million and go up from there
 $20/month tier (Plus / Pro)|An unofficial figure from a mid-2025 court filing put Plus at roughly 12 to 15.5 million subscribers|Anthropic confirmed to reporters that combined Pro + Max paid subscriptions "more than doubled" since the start of 2026, without giving an absolute count
 $100–$200/month tier (Pro / Max)|Third-party analysis puts ChatGPT Pro ($200) at roughly 500,000+ subscribers|Not disclosed as a standalone number
 Business / Team / Enterprise accounts|More than 9 million paying business users|More than 300,000 business customers; more than 1,000 of those customers each spend over $1 million a year
 Total paid subscribers, all consumer tiers combined|More than 50 million|Not officially disclosed
 
-*Figure 1.1: A simple two-axis diagram. One axis runs from "narrow ecosystem" to "broad ecosystem." The other runs from "general-purpose" to "writing and reasoning depth." Plot ChatGPT toward broad ecosystem, and Claude toward writing and reasoning depth, with both assistants overlapping in the general-purpose middle ground.*
+![ChatGPT compared to Claude against two axises: ecosystem and strengths](Bonus-Chapter-Beyond-Your-First-AI-compare.png)
 
 ## Try it now
 
