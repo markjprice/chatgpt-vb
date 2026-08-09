@@ -124,6 +124,8 @@ Google Gemini is worth a second look once you outgrow occasional use of ChatGPT,
 
 Gemini connects directly to Gmail, Google Docs, Sheets, and Drive, so it can read and act on files you already store there without an upload step. Google's larger Gemini models can hold well over a million tokens of text, images, audio, and video in a single conversation, among the largest context windows of any mainstream assistant, which makes Gemini a strong choice for questions about a long video, a lengthy recording, or a large batch of documents at once. Gemini also connects tightly to Google Search, so its answers to current-events questions often come with clearer, more immediate web grounding than assistants that search less consistently.
 
+![Google Gemini as a backup AI](Bonus-Chapter-Beyond-Your-First-AI-Gemini.png)
+
 ## Weighing it against ChatGPT and Claude
 
 Choosing between ChatGPT, Claude, and Gemini can feel a little like choosing between familiar soft drinks: all three do the core job well, and the right pick often comes down to which ecosystem you are already standing in. If your work already runs through Gmail and Google Docs, that alone can tip the balance toward Gemini.
