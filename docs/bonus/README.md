@@ -2,7 +2,7 @@
 
 ## [Beyond Your First AI](beyond/README.md)
 
-[![Beyond Your First AI](beyond/Bonus-Chapter-Beyond-Your-First-AI-Hero.png)](beyond/README.md)
+[![Beyond Your First AI](beyond/Bonus-Chapter-Beyond-Your-First-AI-hero.png)](beyond/README.md)
 
 ## [Profession-Specific Prompts](professions/README.md)
 
