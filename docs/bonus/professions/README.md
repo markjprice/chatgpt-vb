@@ -1,24 +1,30 @@
 > **A free bonus online-only guide for *ChatGPT Visual Bible*, not included in the print edition**
 
-![Profession-Specific Prompts](Bonus-Chapter-Profession-Specific-Prompts-hero.png)
+![Profession-Specific Prompts](Hero.png)
 
 *Regulatory details in this guide were last verified against primary sources in August 2026. Rules, guidance, and links change quickly. Confirm current requirements before relying on any of them.*
 
 - [Introduction](#introduction)
 - [Education and teaching](#education-and-teaching)
 - [Finance and accounting](#finance-and-accounting)
+- [Freelancers](#freelancers)
 - [Government and public sector](#government-and-public-sector)
 - [Healthcare](#healthcare)
   - [Mental health and social work](#mental-health-and-social-work)
 - [HR and recruiting](#hr-and-recruiting)
+- [Independent contractors](#independent-contractors)
 - [Insurance](#insurance)
 - [Journalism and media](#journalism-and-media)
 - [Legal](#legal)
 - [Marketing](#marketing)
+- [Publishing books](#publishing-books)
 - [Nonprofit and fundraising](#nonprofit-and-fundraising)
 - [Real estate](#real-estate)
 - [Sales](#sales)
+- [Scientists and engineers](#scientists-and-engineers)
+- [Small business owner: retail, cafe, restaurant](#small-business-owner-retail-cafe-restaurant)
 - [Software, IT, and cybersecurity](#software-it-and-cybersecurity)
+- [Visual creatives](#visual-creatives)
 - [If your profession isn't listed here](#if-your-profession-isnt-listed-here)
 
 # Introduction
@@ -38,6 +44,8 @@ Treat every prompt here as a starting point, not a finished product. Nothing in 
 > **Special considerations for regulated and client-facing professions**: Some professions carry a duty that changes how you should use an AI assistant: a duty of confidentiality, a duty to avoid discrimination, a duty to disclose, or a duty to verify before anything reaches a client or the public. This chapter covers fourteen such professions. Each section names the specific risk, gives one habit that reduces it, one mistake to avoid, and several prompts you can adapt to your own work.
 
 # Education and teaching
+
+![Education and teaching](Education.png)
 
 Teachers carry a duty to protect student privacy under the Family Educational Rights and Privacy Act (FERPA), and a separate duty to model honest, disclosed use of AI for the students they teach. Both duties apply whether the AI use is for lesson planning or for grading student work.
 
@@ -62,6 +70,8 @@ What student data protection rules apply to teachers using AI tools with school 
 
 # Finance and accounting
 
+![Finance and accounting](Finance.png)
+
 Financial professionals often hold a fiduciary duty, a legal obligation to act in a client's best interest rather than their own. The Securities and Exchange Commission and FINRA have both made clear that using AI to draft communications or analysis does not reduce a firm's existing supervisory, recordkeeping, and fair-dealing obligations. Client financial data also carries its own confidentiality expectations, separate from the advice itself.
 
 In the United Kingdom, the Financial Conduct Authority (FCA) regulates AI use through its existing, technology-neutral rules rather than AI-specific ones, chiefly the Consumer Duty and the Senior Managers and Certification Regime. A firm must be able to show that any AI-assisted customer interaction, from a chatbot answering a pension question to an AI-drafted suitability letter, still delivers the good outcomes Consumer Duty requires, and a named senior manager remains accountable for harm the AI causes.
@@ -83,9 +93,32 @@ What financial regulator rules apply to using AI in client-facing financial advi
 - `List the standard disclosures typically required when discussing [a type of financial product], so I can confirm my draft is complete.`
 - `Summarize this general market trend in two paragraphs suitable for a client newsletter: [paste public article or data].`
 
+# Freelancers
+
+Freelancers answer to a contract and a platform more often than to a government regulator, and both now have real AI rules attached. Upwork's policy, updated January 2026, opts freelancer messages and work product into training Upwork's own AI models by default unless the freelancer changes their AI Preferences, and separately requires freelancers to get written client consent, disclose which AI tools and data are involved, and confirm the tool's own terms do not allow training on the client's data, before using AI on paid client work. Fiverr uses a lighter, conditional model: sellers do not have to disclose AI use in a gig description, only if a client asks directly or has made a "no AI" request before the order starts.
+
+In the United Kingdom, there is no single freelancer-specific AI regulator, but two ordinary rules apply with full force to a one-person business. A freelancer who holds a client's name, contact details, or other personal data is a data controller under the UK GDPR in exactly the same way a large company is; there is no size exemption for being a sole trader. And because UK copyright law's treatment of AI-generated deliverables is currently under review (see Publishing books and Visual creatives), a freelancer's own contract, not a default legal rule, is the most reliable way to make ownership of AI-assisted work clear to a client.
+
+If you are outside the US and UK, ask:
+```
+What contract, copyright, or data protection rules apply to freelancers using AI on client work in [your country]?
+```
+
+> **Watch out:** Read your freelance platform's actual AI terms before using an AI tool on client work. Upwork, for example, requires written client consent and specific tool disclosure, and default settings may opt your own messages and deliverables into training the platform's AI unless you check them.
+
+> **Good practice:** Put your own AI-use terms in your contract or proposal template, stating plainly which parts of your process may involve AI, so clients know upfront rather than finding out later, and recheck your platform's default settings whenever they change.
+
+> **Learn more online:** Fiverr's public guidance on using AI as a freelancer or client is at [help.fiverr.com](https://help.fiverr.com/hc/en-us/articles/37333301560593-Using-AI-on-Fiverr-Guidelines-for-freelancers-and-clients).
+
+**Prompts to adapt:**
+- `Draft a short AI-use clause for a freelance contract or proposal template, explaining which parts of my process may involve AI assistance.`
+- `Summarize this client brief into a scope-of-work outline with deliverables and a rough timeline: [paste brief].`
+- `Draft a polite message to a client checking whether they are comfortable with AI-assisted drafts before I start using them on this project.`
+- `Rewrite this invoice reminder message to sound firm but friendly: [paste draft].`
+
 # Government and public sector
 
-![Government and public sector](Bonus-Chapter-Profession-Specific-Prompts-Gov.png)
+![Government and public sector](Government.png)
 
 Public-sector employees produce records that are often subject to public disclosure laws, such as the Freedom of Information Act at the federal level or an equivalent state open-records law. Any AI-assisted draft, note, or analysis created as part of official business can become a public record, and government agencies are increasingly expected to keep AI use explainable and auditable rather than hidden inside an unreviewed tool.
 
@@ -109,6 +142,8 @@ What public records or freedom of information rules apply to government staff us
 - `List the standard sections typically included in a [type of public report], so I can check my draft is complete.`
 
 # Healthcare
+
+![Healthcare](Healthcare.png)
 
 Healthcare professionals work under the Health Insurance Portability and Accountability Act (HIPAA), which protects patient health information from being shared with anyone or anything that has not agreed to protect it the same way, typically through a business associate agreement, a contract that legally binds a vendor to HIPAA's privacy and security rules. The US Department of Health and Human Services' Office for Civil Rights has made clear that HIPAA's technical safeguards apply to any AI system that touches protected health information, and that a vendor's own security claims do not remove your organization's responsibility to verify them.
 
@@ -158,7 +193,7 @@ What extra confidentiality rules apply to therapy, counseling, or social work re
 
 # HR and recruiting
 
-![HR and recruiting](Bonus-Chapter-Profession-Specific-Prompts-HR.png)
+![HR and recruiting](HR.png)
 
 Recruiters and HR professionals sit close to employment discrimination law, including Title VII, the Americans with Disabilities Act, and the Age Discrimination in Employment Act. The Equal Employment Opportunity Commission has made clear that using an AI tool in hiring does not shift responsibility for a discriminatory outcome away from the employer, even when a vendor built the tool. Part of that responsibility is testing for adverse impact: a statistical pattern showing that a process disqualifies people in a protected group at a meaningfully higher rate than others, even without anyone intending it. Some states and cities, including New York City's Local Law 144, add their own audit and disclosure requirements for automated hiring tools.
 
@@ -183,7 +218,32 @@ What employment discrimination rules apply to using AI in hiring decisions in [y
 - `Create a feedback template for interviewers to fill in after speaking with a candidate for [role], focused on job-related criteria.`
 - `Summarize this policy document into a plain-language FAQ for new employees: [paste policy].`
 
+# Independent contractors
+
+Plumbers, electricians, and handypeople work under codes and licenses set locally, not nationally, which makes an AI assistant's confident-sounding answer about "the code" a real risk. In the US, electricians and plumbers are typically licensed at the state or local level, and code compliance is the license holder's personal responsibility regardless of what a chatbot suggested. The National Electrical Code (NEC) itself updates on its own three-year cycle (the 2026 edition was issued in September 2025), and it is commonly adopted by state or local governments rather than being federal law itself, so the version in force depends on where you work. Unlicensed or non-compliant work is rarely covered by insurance, which turns a wrong AI-sourced code detail into a bill you pay yourself.
+
+In the United Kingdom, some trades carry a legal registration requirement, not just a licensing recommendation. By law, anyone who works on gas appliances must be on the Gas Safe Register; there is no legal way around it. Most notifiable domestic electrical work in England and Wales must be carried out by an electrician registered with a government-approved competent-person scheme, or reported to building control, under Part P of the Building Regulations, and a homeowner or landlord who cannot prove that compliance is committing a criminal offence.
+
+If you are outside the US and UK, ask:
+```
+What licensing or safety-code rules apply to tradespeople using AI for job estimates or guidance in [your country]?
+```
+
+> **Watch out:** Never treat an AI assistant's description of "the electrical code" or "the plumbing code" as current or complete for your exact jurisdiction. Codes are set locally or by state, updated on their own schedule, and AI training data can lag behind the current edition. AI output is never a substitute for your license, your Gas Safe registration, or a Part P sign-off.
+
+> **Good practice:** Use AI to draft customer-facing estimates, explain a job in plain language, or organize a punch list, then verify any code-specific detail against your current local code book or licensing board before you rely on it.
+
+> **Learn more online:** The Gas Safe Register, the UK's legally required register for anyone working on gas appliances, is at [gassaferegister.co.uk](https://www.gassaferegister.co.uk).
+
+**Prompts to adapt:**
+- `Draft a plain-language estimate explaining the scope of work for [job description], based on these actual costs and materials: [list costs and materials].`
+- `Write a follow-up text to a customer confirming the appointment time and what to expect during [type of job].`
+- `Summarize this inspection report into a checklist a homeowner could understand: [paste report].`
+- `Draft a simple maintenance reminder message for customers due for [type of service] every [interval].`
+
 # Insurance
+
+![Insurance](Insurance.png)
 
 Underwriters, claims adjusters, and insurance agents work under rules coordinated by the National Association of Insurance Commissioners (NAIC), a body that develops model regulation for individual state insurance departments to adopt. Its Model Bulletin on the Use of AI Systems by Insurers, first published in 2023, requires insurers to maintain a written AI governance program covering underwriting, rating, claims, fraud detection, and marketing, with documentation detailed enough for a regulator to reconstruct any specific consumer-facing decision. More than half of US states had adopted the bulletin or substantially similar rules by early 2026.
 
@@ -210,7 +270,7 @@ What insurance regulator rules apply to using AI in underwriting or claims decis
 
 # Journalism and media
 
-![Journalism and media](Bonus-Chapter-Profession-Specific-Prompts-Journalism.png)
+![Journalism and media](Journalism.png)
 
 Journalists carry a duty to verify facts and disclose their methods, both of which are directly challenged by generative AI. A fabricated quote, an invented statistic, or an unverified claim from an AI assistant becomes a much bigger problem once it appears under a byline. Newsrooms are still building formal AI policies industry-wide, but the underlying duties of sourcing, accuracy, and disclosure have not changed.
 
@@ -235,7 +295,7 @@ What accuracy and disclosure standards apply to journalists using AI tools in [y
 
 # Legal
 
-![Legal](Bonus-Chapter-Profession-Specific-Prompts-Legal.png)
+![Legal](Legal.png)
 
 Attorneys hold a duty of confidentiality that covers almost everything a client tells them, including communications protected by attorney-client privilege, a legal protection that can be permanently lost once shared with an outside tool. Attorneys also hold a duty of competence that now extends to understanding the tools they use. The American Bar Association's Formal Opinion 512, issued in July 2024, states that lawyers using generative AI must understand its capabilities and limitations under Model Rule 1.1 and must protect client information under Model Rule 1.6, regardless of which AI tool touches that information. More than a dozen state bars have since issued their own opinions on the same questions.
 
@@ -260,8 +320,6 @@ What confidentiality and legal professional privilege rules apply to a lawyer us
 
 # Marketing
 
-![Marketing](Bonus-Chapter-Profession-Specific-Prompts-Sales.png)
-
 Marketers who use AI to help write or generate content face a two-part disclosure rule. As of 2026, the Federal Trade Commission generally expects separate disclosures for sponsorship and for AI involvement. A label that says a post is sponsored does not also cover AI involvement, and a label that says content is AI-generated does not also cover a paid relationship. Both statements must appear when both apply.
 
 In the United Kingdom, there is no blanket legal requirement to label an ad as AI-generated. Instead, the Advertising Standards Authority and its Committee of Advertising Practice apply the existing CAP Code: the question is whether an audience would be misled by not knowing AI was involved, not whether AI was used at all. From June 2026, CAP guidance specifically addresses AI-generated deepfakes, synthetic endorsements, and misleading product depictions as breaches of existing rules, whether or not an advertiser separately discloses AI use.
@@ -284,6 +342,31 @@ What advertising and AI-disclosure rules apply to marketers using AI-generated c
 - `Compare the tone and structure of these two ad drafts for [audience], and suggest which fits a [formal/casual] brand voice better.`
 - `Suggest five angles for a social post about [topic], written for an audience that already knows the product.`
 - `Rewrite this product description to lead with the customer benefit rather than the feature list: [paste description].`
+
+# Publishing books
+
+Authors face a copyright question that did not exist a decade ago. The US Copyright Office holds that human authorship is essential for copyright protection: a work that is entirely AI-generated cannot be copyrighted, while a work that combines human and AI-generated elements can be registered, but only the human-authored portions are protected. Applicants must disclose AI-generated material in a registration and briefly explain the human author's actual contribution; writing prompts alone, even detailed ones, does not count as authorship. Separately, Amazon's Kindle Direct Publishing (KDP) requires authors to disclose, to Amazon rather than to readers, whenever AI tools generated text, images, or translations in a book, though ordinary AI-assisted work such as brainstorming, grammar checking, or refining human-written text does not need disclosure. Undisclosed AI-generated content violates KDP's terms and can lead to a blocked book or a suspended account.
+
+In the United Kingdom, the law currently works differently. Section 9(3) of the Copyright, Designs and Patents Act 1988 grants copyright to a "computer-generated work" even where no human author exists, crediting the person who made the arrangements for its creation, usually whoever wrote the prompt, as the legal author. However, a 2026 UK government review found this 35-year-old provision unclear given how generative AI actually works, and proposed removing it while keeping copyright protection for work created with genuine human-AI collaboration. Treat this as an area under active reform, not a settled rule.
+
+If you are outside the US and UK, ask:
+```
+What copyright and disclosure rules apply to authors using AI when publishing a book in [your country]?
+```
+
+> **Watch out:** Do not assume you own full copyright in a purely AI-generated manuscript, cover, or illustration. In the US, that copyright may not exist for anyone to hold; in the UK, the rule granting it is under active review and could change.
+
+> **Good practice:** Keep records of your own creative process (outlines, edited drafts, revision notes) that show your genuine human contribution, and disclose AI-generated content honestly wherever your publishing platform requires it.
+
+> **Real-world example:** By April 2026, the US Copyright Office had already registered more than 6,000 works combining human and AI-generated material, showing that disclosed, human-led AI use is a normal and registerable part of publishing, not a disqualifying one.
+
+> **Learn more online:** The US Copyright Office's dedicated AI resource page is at [copyright.gov/ai](https://www.copyright.gov/ai/).
+
+**Prompts to adapt:**
+- `Brainstorm five plot directions for [genre] involving [characters or situation], which I will develop and write myself.`
+- `Suggest developmental edit notes for this chapter, pointing out pacing or consistency issues: [paste chapter].`
+- `Draft three back-cover blurb options based on this synopsis I wrote: [paste synopsis].`
+- `Check this manuscript excerpt for continuity errors against these character or setting notes: [paste notes].`
 
 # Nonprofit and fundraising
 
@@ -310,6 +393,8 @@ What donor data protection or charity regulation rules apply to nonprofits using
 
 # Real estate
 
+![Real estate](Real-Estate.png)
+
 Real estate professionals work under the Fair Housing Act, which bans discrimination based on race, color, religion, sex, national origin, familial status, or disability in housing sales, rentals, and advertising. The US Department of Housing and Urban Development has issued guidance warning that AI-generated advertising and algorithmic tenant screening can violate the Fair Housing Act even without any intent to discriminate, through how an ad is worded or targeted alone. A handful of states now go further than this federal baseline: Colorado's AI Act, effective June 2026, treats AI used in tenant screening as high-risk and requires landlords themselves, not just their software vendors, to run impact assessments and give consumers notice, and Illinois and New York have advanced similar AI-specific housing protections.
 
 In the United Kingdom, there is no direct equivalent to the Fair Housing Act, but the Equality Act 2010 covers housing and property services under the same nine protected characteristics that apply to employment: age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex, and sexual orientation. An AI-generated listing or ad that indirectly targets or excludes people with one of these characteristics can breach the Act even without any intention to discriminate.
@@ -335,6 +420,8 @@ What housing or property discrimination rules apply to AI-generated advertising 
 
 # Sales
 
+![Sales](Sales.png)
+
 Sales professionals face a narrower but still real risk: overstating what a product or service can do. Claims made in a sales conversation, proposal, or follow-up email can create a binding representation, and general consumer-protection law treats a false or misleading claim about a product the same whether a human or an AI assistant wrote the words.
 
 In the United Kingdom, the Consumer Protection from Unfair Trading Regulations 2008, carried forward under the Digital Markets, Competition and Consumers Act 2024, ban misleading actions and misleading omissions in any commercial practice, regardless of whether AI helped write the pitch. A buyer misled into a purchase can generally unwind the contract and claim a full refund within 90 days, so an AI-invented feature or guarantee is not a drafting slip your organization can shrug off.
@@ -356,9 +443,57 @@ What consumer protection or misleading-advertising rules apply to sales claims m
 - `Draft three responses to the objection "[a common objection]," based only on our actual pricing and features.`
 - `Summarize this call transcript into next steps and open questions: [paste transcript].`
 
+# Scientists and engineers
+
+Researchers and engineers each carry a duty of personal accountability that AI cannot take on for them. Major academic publishers, including Elsevier, Springer Nature, Wiley, Taylor & Francis, and SAGE, along with the Committee on Publication Ethics (COPE), prohibit listing an AI tool as an author, because it cannot take responsibility for the accuracy or integrity of the work; they do generally permit disclosed AI assistance with drafting in specific, named sections. Separately, the National Society of Professional Engineers holds, in a position statement revised in February 2025, that a licensed engineer remains personally accountable for any AI-assisted design or calculation that affects public safety, the same as if they had done the work entirely by hand; a professional engineering stamp represents personal responsibility that AI use does not transfer away.
+
+In the United Kingdom, the UK Research Integrity Office (UKRIO) published dedicated guidance, "Embracing AI with integrity," covering legal compliance, ethics, the integrity of the research record, publication practice, and the effect of AI on critical thinking, aimed at researchers at every career stage. UK Chartered Engineers remain personally accountable to their registering institution and the Engineering Council for AI-assisted work, on the same principle as the US position: the license holder, not the tool, is responsible.
+
+If you are outside the US and UK, ask:
+```
+What research integrity or professional licensure rules apply to using AI in scientific or engineering work in [your country]?
+```
+
+> **Watch out:** Never list an AI tool as a co-author, or let AI-generated text, data, or images enter a manuscript or a stamped design without disclosure and your own independent verification. Major journals treat undisclosed AI use as a research-integrity issue, and a professional engineering stamp makes the human, not the tool, personally accountable for a safety-relevant error.
+
+> **Good practice:** Use AI for literature summaries, drafting, or checking your own work for errors, disclose exactly where and how you used it according to your journal's or employer's policy, and independently verify any AI-generated citation, data point, or calculation before it goes into a publication or a stamped design.
+
+> **Real-world example:** Despite roughly 70% of journals having adopted some form of AI policy, a review of about 75,000 papers published since 2023 found only around 76, roughly 0.1%, explicitly disclosed AI use, showing a wide gap between stated policy and actual disclosure that reviewers and editors are now watching for more closely.
+
+> **Learn more online:** UKRIO's "Embracing AI with integrity" guidance is available at [ukrio.org](https://ukrio.org/ukrio-resources/embracing-ai-with-integrity/).
+
+**Prompts to adapt:**
+- `Summarize the methodology of this paper in plain language, so I can check I've represented it accurately in my literature review: [paste abstract or section].`
+- `Suggest possible weaknesses or confounding variables in this experimental design: [describe design].`
+- `Draft a plain-language summary of this paper's findings for a general audience, based only on this abstract: [paste abstract].`
+- `Check this citation list for formatting consistency against [citation style], without changing any of the actual references.`
+
+# Small business owner: retail, cafe, restaurant
+
+Owners of shops, cafes, and restaurants carry two duties that an AI-drafted menu or label can break without anyone noticing until it is too late: allergen accuracy and customer payment data security. In the US, the Food Allergen Labeling and Consumer Protection Act (FALCPA) requires the nine major allergens to appear on packaged food labels, and while there is currently no federal law requiring restaurants to disclose allergens on menus for food made and served onsite, that is changing state by state: California will require allergen disclosure on menus for chains with 20 or more locations starting July 2026, and New York will require written allergen labeling on prepackaged onsite food starting November 2026. Separately, the Payment Card Industry Data Security Standard (PCI DSS), an industry contractual standard rather than a government law, governs how a business handles customer card data; feeding real transaction or customer records into a consumer AI tool can breach that contractual obligation even without breaking any government law.
+
+In the United Kingdom, Natasha's Law requires a full ingredient list with the 14 major allergens set apart from the rest of the list (typically in bold, italics, or a different color) on any food prepacked for direct sale, with no exemption for small businesses, sole traders, or market stalls. The law exists because of a fatal allergic reaction to an undeclared ingredient, and an AI-drafted label or menu that misses or miscategorizes an allergen carries the same liability as one written entirely by hand.
+
+If you are outside the US and UK, ask:
+```
+What food safety, allergen labeling, or customer data rules apply to small businesses using AI in [your country]?
+```
+
+> **Watch out:** Never publish an AI-drafted menu, food label, or allergen list without a human checking every ingredient against what is actually in the dish. Allergen-labeling laws carry serious liability regardless of who or what drafted the wording.
+
+> **Good practice:** Use AI for the non-safety-critical parts of your business, such as social captions, shift-change announcements, or review responses, and keep a human-verified master ingredient list that any AI-drafted menu text must be checked against before printing.
+
+> **Learn more online:** The UK Food Standards Agency explains Natasha's Law and allergen labeling requirements at [food.gov.uk](https://www.food.gov.uk).
+
+**Prompts to adapt:**
+- `Draft three social media captions for [dish or promotion], based on this description: [description].`
+- `Write a polite response template for a negative online review about [general issue], without admitting fault before we've reviewed the specific complaint.`
+- `Draft a staff shift-change announcement about [policy change], in a friendly, clear tone.`
+- `Summarize this month's sales categories into three observations I should look into further: [paste summary data].`
+
 # Software, IT, and cybersecurity
 
-![Software, IT, and cybersecurity](Bonus-Chapter-Profession-Specific-Prompts-Developer.png)
+![Software, IT, and cybersecurity](Software.png)
 
 Developers and IT professionals face two risks that are easy to miss because they show up later, not immediately. A 2026 industry study testing over 500 AI-generated code samples across six major AI models found that roughly one in four contained a confirmed security vulnerability. Separately, the line between AI-generated code and open-source licensing remains legally unsettled: if AI-suggested code closely resembles a copyleft-licensed snippet and ends up in a proprietary product, the company can face license obligations it never knowingly accepted, and AI tool vendors generally disclaim liability for this, leaving the developer or company holding the risk.
 
@@ -382,6 +517,31 @@ What data protection or software liability rules apply to a business shipping AI
 - `Explain what this code does in plain language, line by line: [paste code].`
 - `Suggest test cases that would catch common mistakes in a function that [describe what the function should do].`
 - `Summarize the open-source license terms of [library or package name] in plain language, including what it would require if I included its code in a commercial product.`
+
+# Visual creatives
+
+Graphic designers, illustrators, photographers, and video editors face the same copyright question as authors, with sharper stakes because clients often expect to buy exclusive rights. Under current US Copyright Office policy, a purely AI-generated image generally cannot be copyrighted at all, which means a designer who promises a client "full" or "exclusive" rights to a wholly AI-generated logo or illustration may be promising something that legally does not exist to hand over. Separately, several ongoing lawsuits by visual artists against AI image-generator companies over the use of their work as training data mean the provenance of an AI tool's training data is a live legal question, one that some clients now ask about directly.
+
+In the United Kingdom, the starting position is different: Section 9(3) of the Copyright, Designs and Patents Act 1988 currently grants limited copyright, lasting up to 50 years, to a purely computer-generated image, crediting the person who arranged its creation as author. As with publishing, a 2026 government review has proposed removing this provision as unclear, while preserving copyright for genuinely human-AI collaborative work, so this is an active policy question rather than a fixed rule.
+
+If you are outside the US and UK, ask:
+```
+What copyright rules apply to AI-assisted or AI-generated visual work in [your country]?
+```
+
+> **Watch out:** Do not promise a client full or exclusive copyright in a purely AI-generated image without checking your jurisdiction. In the US, that copyright often does not exist for the client to receive, and the UK's own rule on this is under review.
+
+> **Good practice:** Document your own creative input (sketches, prompt refinement, manual edits, compositing) so you can show meaningful human authorship if a client, a court, or a registration examiner ever asks who created the work.
+
+> **Real-world example:** Working visual artists have filed, and continue to pursue, lawsuits against AI image-generator companies over the use of their work as training data, which is why some clients now specifically ask which tool was used and what it was trained on before accepting AI-assisted artwork.
+
+> **Learn more online:** The US Copyright Office's dedicated AI resource page is at [copyright.gov/ai](https://www.copyright.gov/ai/).
+
+**Prompts to adapt:**
+- `Suggest five visual concepts for [project type, such as a logo or poster] based on this brief, which I will develop into finished designs myself.`
+- `Generate three color palette options that fit this brand description: [description].`
+- `Write alt text describing this image for accessibility: [describe image].`
+- `Draft a client-facing note explaining which parts of this project involved AI assistance and which were hand-created.`
 
 # If your profession isn't listed here
 
