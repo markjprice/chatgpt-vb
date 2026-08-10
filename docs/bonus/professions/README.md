@@ -26,6 +26,8 @@
 - [Software, IT, and cybersecurity](#software-it-and-cybersecurity)
 - [Visual creatives](#visual-creatives)
 - [If your profession isn't listed here](#if-your-profession-isnt-listed-here)
+  - [Try it now](#try-it-now)
+    - [Check the result](#check-the-result)
 
 # Introduction
 
@@ -550,11 +552,11 @@ These fourteen professions are not the only ones where AI carries a special duty
 What professional duties, confidentiality rules, or regulations should I be aware of when using AI at work as a [your profession] in [your country]?
 ```
 
----
+## Try it now
 
-> **Try it now:** Pick the profession above closest to your own work, or the one you interact with most. Adapt one prompt to a real, non-confidential task you have this week, using placeholders for any real names or figures. Review the result the way you would review a colleague's first draft, not a finished document.
+Pick the profession above closest to your own work, or the one you interact with most. Adapt one prompt to a real, non-confidential task you have this week, using placeholders for any real names or figures. Review the result the way you would review a colleague's first draft, not a finished document.
 
-> **Check the result**
-> - [ ] Did you replace every placeholder with real information only after reviewing the draft?
-> - [ ] Did you avoid entering any confidential, client, patient, student, or personal data into a general AI account?
-> - [ ] Would this draft still need a compliance, legal, or editorial review before it reaches a client, patient, student, or the public?
+### Check the result
+- [ ] Did you replace every placeholder with real information only after reviewing the draft?
+- [ ] Did you avoid entering any confidential, client, patient, student, or personal data into a general AI account?
+- [ ] Would this draft still need a compliance, legal, or editorial review before it reaches a client, patient, student, or the public?
