@@ -37,7 +37,7 @@
 In *ChatGPT Visual Bible*, *Book 1* to *Book 4* taught you to work with ChatGPT: how to ask it good questions, build real results, automate your own workflows, and use it to advance your career. ChatGPT still belongs at the center of that work. This bonus book adds one more skill: knowing when a different AI is the better tool for a specific job, or a backup when your primary AI is unavailable.
 
 You will meet four alternatives: 
-1. **Anthropic Claude** is often the stronger choice for long-form writing and careful reasoning.
+1. **Anthropic Claude** is sometimes the stronger choice for long-form writing and careful reasoning.
 2. **Google Gemini** integrates into Google's other products and can hold very large amounts of text, images, and video at once.
 3. **Mistral Vibe**, from the French company Mistral AI, matters if you work under European data rules.
 4. **DeepSeek**, **Qwen**, and **Kimi** trade a smaller support ecosystem for a lower price, with a privacy trade-off worth understanding first.
