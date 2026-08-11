@@ -7,9 +7,10 @@
 - [Introduction](#introduction)
 - [Chapter 1: Why run an AI model on your own hardware](#chapter-1-why-run-an-ai-model-on-your-own-hardware)
   - [What local AI actually means](#what-local-ai-actually-means)
-  - [Privacy and confidentiality](#privacy-and-confidentiality)
-  - [Cost of the hardware](#cost-of-the-hardware)
   - [Removing the safety behavior](#removing-the-safety-behavior)
+    - [What "uncensored" and "abliterated" actually mean](#what-uncensored-and-abliterated-actually-mean)
+    - [Genuine reasons people want one](#genuine-reasons-people-want-one)
+    - [How to find a suitable model](#how-to-find-a-suitable-model)
   - [Try it now](#try-it-now)
     - [Check the result](#check-the-result)
 - [Chapter 2: Meet `gpt-oss-20b` and `gpt-oss-120b`](#chapter-2-meet-gpt-oss-20b-and-gpt-oss-120b)
@@ -68,18 +69,49 @@ This gives some key benefits:
 
 4. **Control and customization**. Because gpt-oss is released under the Apache 2.0 license, one of the most permissive open-source licenses available, you may inspect, modify, and even fine-tune the model on your own data, something no cloud-only model permits. You also control exactly which version you run and when it changes, rather than having updates applied to your account automatically.
 
-## Privacy and confidentiality
-
-
-
-## Cost of the hardware
-
-
-
-
 ## Removing the safety behavior
 
+Every major hosted AI product ships with guardrails: a layer of safety training and moderation that refuses certain requests outright, softens others, or routes them to a canned response. For most everyday use, that's a sensible default. But a growing number of users, especially people running models locally, deliberately seek out versions with those guardrails removed or reduced. This section explains what that means, why people want it, and how to find a suitable model responsibly.
 
+### What "uncensored" and "abliterated" actually mean
+
+These two terms get used loosely, but they describe different things.
+
+An **uncensored model** is usually a base or fine-tuned model that was trained, or retrained, without the additional safety-alignment pass most commercial labs apply on top of a raw language model. That safety pass is what teaches a model to refuse certain topics, hedge on others, and avoid content the provider considers reputationally risky. Skipping or reversing it produces a model that behaves closer to its unfiltered training data.
+
+**Abliteration** is a more specific technique. Researchers found that a model's tendency to refuse a request corresponds to a fairly consistent internal "direction" in its activation space, a pattern the model has learned to associate with declining. Abliteration identifies that direction and mathematically suppresses it, without a full retraining run. The result is a model that keeps most of its original capability but stops reflexively refusing. It's a form of targeted surgery on the weights rather than a new training process, which is why it's become popular for adapting existing open-weight models: it's cheap, fast, and doesn't require the original training data.
+
+Both approaches sit on a spectrum. Some models are lightly de-censored (fewer topic refusals, same underlying safety judgment); others are stripped close to raw, with few or no built-in refusals at all. Model cards usually say which.
+
+### Genuine reasons people want one
+
+The demand isn't limited to a single use case, and several of the most common ones are entirely legitimate.
+
+**Adult fiction and role-play.** Commercial chat products routinely refuse or sanitize romantic, sexual, or violent content even in a clearly fictional, consensual, adults-only context, because moderation systems are tuned for the average case, not the specific one. Novelists, game masters, and interactive-fiction writers who want a collaborator that can sustain mature themes without breaking character or lecturing them mid-scene often move to an uncensored local model for exactly that reason.
+
+**Overcautious refusals on ordinary topics.** Safety tuning is blunt. It frequently blocks or hedges requests that have nothing to do with real harm: historical accounts of violence, medical or legal detail a professional needs precisely, security research, dark humor, or simply a direct opinion on a controversial question. Users doing legitimate professional or academic work report the refusal rate on benign requests as the single biggest frustration with heavily aligned models.
+
+**Jurisdictional and political restrictions.** Some hosted models apply content policies shaped by the laws or political sensitivities of the country the provider operates in or serves, restricting discussion of certain historical events, political figures, or state actions. A user in a different jurisdiction, where that speech is legal and normal, may reasonably want a model that doesn't inherit restrictions written for someone else's regulatory environment.
+
+**Privacy and independence from corporate moderation.** Some users simply don't want a third party logging, reviewing, or shaping their conversations at all, on any topic. Running an open-weight model locally, uncensored or not, keeps the interaction entirely off a company's servers.
+
+**Research, red-teaming, and model evaluation.** Safety researchers and AI developers deliberately study uncensored and abliterated models to understand what alignment training does and doesn't remove, and to test whether safety behavior generalizes or is superficial. This is a recognized and published area of interpretability research, not a fringe activity.
+
+**Creative and technical experimentation.** Fiction writers exploring morally complex characters, game developers wanting NPC dialogue that isn't visibly "AI-safe," and hobbyists customizing a personal assistant all have reasons to want a model that follows their instructions rather than a third party's content policy.
+
+None of this erases the other side of the coin: the same guardrails that block a legitimate novelist also block someone trying to generate real harassment, exploitation material, or dangerous instructions, and abliteration removes that resistance too. The responsibility for what gets generated with an uncensored model sits entirely with the user, not with any built-in safety net. 
+
+> **Watch out**: Removing a model's refusals doesn't remove the law: content that's illegal to produce, possess, or distribute stays illegal regardless of what model produced it.
+
+### How to find a suitable model
+
+**Hugging Face is the primary catalog.** Search the model hub for the terms "uncensored" or "abliterated"; both have become de facto tags that creators use in the model name itself (for example, a model card named `Llama-3-8B-Instruct-abliterated`). Filtering by these keywords surfaces community fine-tunes built specifically for this purpose, layered on top of well-known open-weight bases such as Llama, Mistral, Qwen, or Gemma.
+
+**Read the model card before downloading anything.** A good card states what was done (full retrain, LoRA fine-tune, or abliteration), which base model it started from, what benchmarks were run afterward to check the model didn't lose general capability, and what the maintainer's own content stance is.
+
+**Check community boards for real-world track record.** Communities such as `r/LocalLLaMA` on Reddit, and Discord servers built around specific inference tools, regularly discuss which uncensored fine-tunes currently perform well versus which have degraded reasoning ability as a side effect of the de-censoring process. This matters because heavy-handed abliteration can measurably hurt a model's coherence and instruction-following, not just its refusals; the community consensus on quality shifts as new releases come out, so a forum search close to your actual read date is more reliable than any static list.
+
+**Prefer maintainers with a track record.** A handful of individuals and small groups (visible on Hugging Face by username) have built a reputation specifically for careful abliteration and uncensored fine-tuning work, publishing their methodology and before/after benchmark comparisons. Models from a known, repeat contributor with transparent documentation are generally a safer bet than an anonymous one-off upload.
 
 > **Watch out:** An open-weight model can also be modified by anyone else, including to remove the safety behavior OpenAI built in. Treat a gpt-oss model you download from an unfamiliar source with the same caution you would apply to any other executable file, and prefer official or well-known distribution channels.
 
