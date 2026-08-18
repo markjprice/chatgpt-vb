@@ -227,6 +227,12 @@ Finally, let's compare all the AI options we've introduced and choose the ones b
 
 ChatGPT should remain your default assistant. Everything in this guide is about recognizing the handful of situations where a different tool serves you better, then returning to ChatGPT for everything else. Use the matrix below as a quick reference the next time you are unsure which assistant to open.
 
+I would increasingly organize model choice around four dimensions:
+```
+capability + cost + control + data location
+```
+That is more durable than a leaderboard. A closed frontier model can remain the best choice for the hardest 10% of tasks while a much cheaper model handles the other 90%.
+
 | If you need | Consider first | Why |
 | --- | --- | --- |
 | An assistant with the broadest features and outside app support | ChatGPT | Widest consumer reach and third-party ecosystem |
