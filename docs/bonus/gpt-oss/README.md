@@ -47,6 +47,8 @@
 
 *Book 1* to *Book 4* taught you to work with ChatGPT running in OpenAI's cloud. Every request leaves your device, gets answered by a model running on OpenAI's servers, and comes back. That is the right setup for almost everything you do day to day.
 
+> This privacy issue is lessened since OpenAI offers frontier models with genuine Zero Data Retention: https://openai.com/index/offering-zero-data-retention-for-frontier-models/
+
 This guide covers the other path: running an AI model entirely on your own laptop or desktop, with nothing leaving your device. OpenAI itself makes this possible through two open-weight models, `gpt-oss-20b` and `gpt-oss-120b`, which you can download once and run as many times as you like, offline, for free.
 
 But don't get too excited just yet! Running OpenAI's models locally is quite a different experience and they have much more limited capabilities. They have their place but put away the idea that you can avoid using cloud models. Cloud models will likely always be superior to local models in most respects. This guide is about knowing those special situations when a local model is the better tool: when privacy matters more than raw capability, when you have no internet connection, or when you want to experiment with owning the whole stack yourself.
