@@ -10,7 +10,7 @@ Repository for the Packt Publishing book titled "ChatGPT Visual Bible" by Mark J
   - [Book 1 Ask ChatGPT (sample files)](#book-1-ask-chatgpt-sample-files)
   - [Book 2 Create Real Work Results (sample files)](#book-2-create-real-work-results-sample-files)
   - [Book 3 Automate Recurring Tasks (sample files)](#book-3-automate-recurring-tasks-sample-files)
-  - [Book 4  (sample files)](#book-4--sample-files)
+  - [Book 4 Advance Your Career and Income (sample files)](#book-4-advance-your-career-and-income-sample-files)
   - [Epilogue](#epilogue)
 - [Bonus Books](#bonus-books)
 - [Interviews with me](#interviews-with-me)
@@ -73,20 +73,20 @@ My author page on Goodreads: https://www.goodreads.com/author/show/14224500.Mark
 - Chapter 3.7 Build a Decision and Operations Workflow
 - Chapter 3.8 Project– Build and Measure an End-to-End Workflow
 
-## Book 4  ([sample files](/Files/Book4/))
-- Chapter 4.1 Choose What BetterWork Means toYou
-- Chapter 4.2 Audit Your Role andFind High-Value Work
-- Chapter 4.3 Measure andDocumentYour Improvement
+## Book 4 Advance Your Career and Income ([sample files](/Files/Book4/))
+- Chapter 4.1 Choose What Better Work Means toYou
+- Chapter 4.2 Audit Your Role and Find High-Value Work
+- Chapter 4.3 Measure and Document Your Improvement
 - Chapter 4.4 Learn the Skills Your Next Role Requires
 - Chapter 4.5 Combine AI Fluency with Human Strengths
-- Chapter 4.6 Propose andLead an AIImprovement atWork
-- Chapter 4.7 Build a Case forPromotion orHigher Pay
-- Chapter 4.8 Prepare for aBetterJob orCareerChange
+- Chapter 4.6 Propose andLead an AI Improvement atWork
+- Chapter 4.7 Build a Case for Promotion or Higher Pay
+- Chapter 4.8 Prepare for a Better Job or Career Change
 - Chapter 4.9 Rehearse High-Stakes Conversations with Voice Mode
-- Chapter 4.10 Build a Portfolio and MeasurableCaseStudy
-- Chapter 4.11 Turn a Problem into a Serviceor Product
+- Chapter 4.10 Build a Portfolio and Measurable Case Study
+- Chapter 4.11 Turn a Problem into a Service or Product
 - Chapter 4.12 Decide How to Respond to AI in Your Field
-- Chapter 4.13 Project – Complete a 30-day CareerValue Project
+- Chapter 4.13 Project – Complete a 30-day Career Value Project
 
 ## Epilogue
 
