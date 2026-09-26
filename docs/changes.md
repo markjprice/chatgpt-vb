@@ -1,13 +1,61 @@
-- [ChatGPT model release timeline: GPT-5 to GPT-6](#chatgpt-model-release-timeline-gpt-5-to-gpt-6)
+**Changes**
+
+> *Last checked*: 26 September 2026
+
+ChatGPT changes often. A menu can move, a feature can leave preview status or be retired, or a plan can change its price after this book went to print.
+
 - [Interface and feature changes since publication](#interface-and-feature-changes-since-publication)
-  - [Book 1 Ask ChatGPT](#book-1-ask-chatgpt)
-- [Book 2 Create Real Work Results](#book-2-create-real-work-results)
-- [Book 3 Automate Recurring Tasks](#book-3-automate-recurring-tasks)
-- [Book 4 Advanced Your Career and Income](#book-4-advanced-your-career-and-income)
+- [ChatGPT latest user interface screenshots](#chatgpt-latest-user-interface-screenshots)
+  - [Left navigation sidebar](#left-navigation-sidebar)
+  - [Account menu in ChatGPT app](#account-menu-in-chatgpt-app)
+  - [Advanced model picker](#advanced-model-picker)
+  - [Slider model picker](#slider-model-picker)
+- [ChatGPT model release timeline: GPT-5 to GPT-6](#chatgpt-model-release-timeline-gpt-5-to-gpt-6)
+- [Sources](#sources)
 
-> Last checked: 26 September 2026
 
-ChatGPT changes often. A menu can move, a feature can leave preview status, or a plan can change its price after this book goes to print. This page exists so a printed screenshot never leaves you stuck.
+# Interface and feature changes since publication
+
+| Date | Change | Label |
+|---|---|---|
+| 14 Aug 2026 | Think available to Free and Go | Plan and pricing change |
+| 14 Aug 2026 | Linux desktop app in public preview | Feature availability |
+| 8 Sep 2026 | Images 2.5 adds Sketch, templates, comment-based edits | Interface change |
+| 9 Sep 2026 | GPT-5.6 and GPT-6 Astra added to Voice for paid users. Daily limits restructured (Go 3 hours with mini, Plus 3 hours, Pro $100 tier 15 hours, Pro $200 tier unlimited) | Plan and pricing change |
+| 11 Sep 2026 | Custom GPTs announced for retirement, with migration to plugins | Feature availability |
+| 14 Sep 2026 | Automatic switching from Instant to Thinking retired for Plus and Pro | Interface change |
+| 17 Sep 2026 | ChatGPT for Word launched on all plans | Feature availability |
+| 21 Sep 2026 | Privacy Center launched for Free, Go, Plus, and Pro | Interface change |
+| 21 Sep 2026 | Experian credit report integration (Finances) for US Plus and Pro | Region and account difference |
+| 22 Sep 2026 | Interactive flashcards added on mobile and web | Feature availability |
+| 23 Sep 2026 | Voice now works with plugins and in Work | Feature availability |
+
+
+# ChatGPT latest user interface screenshots
+
+## Left navigation sidebar
+
+ChatGPT desktop app's left navigation sidebar has icons for:
+- **Home**
+- **Scheduled**
+- **Library**
+- **Images**
+- **Plugins**
+- **...** (more that leads to **Projects**, **Sites**, **Maps**, **GPTs**)
+
+![New left-navigation bar in ChatGPT app](chatgpt-app-01.png)
+
+## Account menu in ChatGPT app
+
+![Account menu](chatgpt-app-02.png)
+
+## Advanced model picker
+
+![Advanced model picker](chatgpt-app-03.png)
+
+## Slider model picker
+
+![Slider model picker](chatgpt-app-04.png)
 
 # ChatGPT model release timeline: GPT-5 to GPT-6
 
@@ -29,57 +77,11 @@ A chronological timeline of OpenAI's major and minor ChatGPT model releases, fro
 | 8 Sep 2026 | **ChatGPT Images 2.5** | Image generation UI changed (Sketch, comment-based edits, templates). |
 | 22 Sep 2026 | **GPT-6 Sol**, **GPT-6 Luna** | New model choices in ChatGPT Work and Codex. Luna reaches Free and Go users in the desktop app. Chat is not yet included. No Terra yet. |
 
-**Sources**
+# Sources
+
 - [GPT-6 Astra: A new generation of intelligence - OpenAI](https://openai.com/index/gpt-6-astra/)
 - [Model Release Notes - OpenAI Help Center](https://help.openai.com/en/articles/9624314-model-release-notes)
 - [ChatGPT release notes, OpenAI Help Center](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
 - [Model Release Notes, OpenAI Help Center](https://help.openai.com/en/articles/9624314-model-release-notes)
 - [Introducing GPT-6 Sol and Luna, OpenAI](https://openai.com/index/introducing-gpt-6-sol-and-luna/)
 - [Introducing ChatGPT Images 2.5, OpenAI](https://openai.com/index/introducing-chatgpt-images-2-5/)
-
-# Interface and feature changes since publication
-
-| Date | Change | Label |
-|---|---|---|
-| 8 Sep 2026 | Images 2.5 adds Sketch, templates, comment-based edits | Interface change |
-| 9 Sep 2026 | GPT-5.6 and GPT-6 Astra added to Voice for paid users. Daily limits restructured (Go 3 hours with mini, Plus 3 hours, Pro $100 tier 15 hours, Pro $200 tier unlimited) | Plan and pricing change |
-| 11 Sep 2026 | Custom GPTs announced for retirement, with migration to plugins | Feature availability |
-| 14 Sep 2026 | Automatic switching from Instant to Thinking retired for Plus and Pro | Interface change |
-| 17 Sep 2026 | ChatGPT for Word launched on all plans | Feature availability |
-| 21 Sep 2026 | Privacy Center launched for Free, Go, Plus, and Pro | Interface change |
-| 21 Sep 2026 | Experian credit report integration (Finances) for US Plus and Pro | Region and account difference |
-| 22 Sep 2026 | Interactive flashcards added on mobile and web | Feature availability |
-| 23 Sep 2026 | Voice now works with plugins and in Work | Feature availability |
-| 14 Aug 2026 | Think available to Free and Go | Plan and pricing change |
-| 14 Aug 2026 | Linux desktop app in public preview | Feature availability |
-
-
-## Book 1 Ask ChatGPT
-
-Left navigation bar has icons for:
-- **Home**
-- **Scheduled**
-- **Library**
-- **Images**
-- **Plugins**
-- **...** (more that leads to **Projects**, **Sites**, **Maps**, **GPTs**)
-
-![New left-navigation bar in ChatGPT app](chatgpt-app-01.png)
-
-Account menu in ChatGPT app:
-
-![Account menu](chatgpt-app-02.png)
-
-Advanced model picker:
-
-![Advanced model picker](chatgpt-app-03.png)
-
-Slider model picker:
-
-![Slider model picker](chatgpt-app-04.png)
-
-# Book 2 Create Real Work Results
-
-# Book 3 Automate Recurring Tasks
-
-# Book 4 Advanced Your Career and Income
