@@ -43,19 +43,19 @@ ChatGPT desktop app's left navigation sidebar has icons for:
 - **Plugins**
 - **...** (more that leads to **Projects**, **Sites**, **Maps**, **GPTs**)
 
-![New left-navigation bar in ChatGPT app](chatgpt-app-01.png)
+![New left-navigation bar in ChatGPT app](docs/assets/chatgpt-app-01.png)
 
 ## Account menu in ChatGPT app
 
-![Account menu](chatgpt-app-02.png)
+![Account menu](docs/assets/chatgpt-app-02.png)
 
 ## Advanced model picker
 
-![Advanced model picker](chatgpt-app-03.png)
+![Advanced model picker](docs/assets/chatgpt-app-03.png)
 
 ## Slider model picker
 
-![Slider model picker](chatgpt-app-04.png)
+![Slider model picker](docs/assets/chatgpt-app-04.png)
 
 # ChatGPT model release timeline: GPT-5 to GPT-6
 
